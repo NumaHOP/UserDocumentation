@@ -45,7 +45,7 @@ const membres = [
   {
     nom: 'Humathèque Condorcet',
     ville: 'Aubervilliers',
-    logo: 'img/logos/humatheque-logo.png',
+    logo: 'img/logos/condorcet-logo.png',
     siteInternet: 'https://www.humatheque-condorcet.fr/',
     bibliothequeNumerique: 'https://bibnum.campus-condorcet.fr/s/bibnum/page/accueil',
   },
@@ -289,7 +289,7 @@ const CommunautePage = () => {
               </div>
               <h3 className={styles.cardTitle}>Échangez avec la communauté</h3>
               <p className={styles.cardDescription}>
-                Partagez vos retours d\'experience, et apprenez de la communauté des utilisateurs de NumaHop.
+                Partagez vos retours d'experience, et apprenez de la communauté des utilisateurs de NumaHop.
               </p>
               <a
                 className={clsx('button button--primary', styles.cardButton)}
