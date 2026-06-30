@@ -138,26 +138,6 @@ const PresentationPage = () => {
 
         </header>
 
-        {/* Section des fonctionnalités */}
-        <section className={styles.features}>
-          <h2 className={styles.sectionTitle}>
-            <FontAwesomeIcon icon={faCog} className={styles.sectionIcon} />
-            Fonctionnalités clés
-          </h2>
-          <div className={styles.featuresGrid}>
-            {features.map((feature, index) => (
-              <FeatureCard
-                key={index}
-                icon={feature.icon}
-                title={feature.title}
-                description={feature.description}
-                tags={feature.tags}
-              />
-            ))}
-          </div>
-        </section>
-
-
         {/* Section des vidéos de démonstration */}
         <section className={styles.videosSection}>
           <h2 className={styles.sectionTitle}>
@@ -208,6 +188,25 @@ const PresentationPage = () => {
           </div>
         </section>
 
+
+        {/* Section des fonctionnalités */}
+        <section className={styles.features}>
+          <h2 className={styles.sectionTitle}>
+            <FontAwesomeIcon icon={faCog} className={styles.sectionIcon} />
+            Fonctionnalités clés
+          </h2>
+          <div className={styles.featuresGrid}>
+            {features.map((feature, index) => (
+              <FeatureCard
+                key={index}
+                icon={feature.icon}
+                title={feature.title}
+                description={feature.description}
+                tags={feature.tags}
+              />
+            ))}
+          </div>
+        </section>
 
       </div >
     </Layout >

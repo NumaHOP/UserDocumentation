@@ -107,12 +107,12 @@ const membres = [
     siteInternet: 'https://www.bis-sorbonne.fr/',
     bibliothequeNumerique: 'https://nubis.bis-sorbonne.fr/',
   },*/
-  /*{
+  {
     nom: 'Musée du Quai Branly',
     ville: 'Paris',
     logo: 'img/logos/mqb-logo.png',
     siteInternet: 'https://www.quaibranly.fr/fr/',
-  },*/
+  },
 ];
 
 // Prestataires
@@ -123,6 +123,7 @@ const prestataires = [
     siteInternet: 'https://www.tech-advantage.com/',
     citation: "Tech’Advantage a accompagné le développement initial de NumaHop, en capitalisant sur son expertise historique en solutions numériques pour les bibliothèques et les institutions culturelles, héritée de Progilone.",
     photo: 'img/photos/techadvantage.jpg',
+    logo: 'img/logos/techadvantage-logo.png',
     description: "Prestataire historique, Tech’Advantage a joué un rôle clé dans la conception et le déploiement de NumaHop, en s’appuyant sur son héritage technique et son expérience de plus de 30 ans dans le numérique scientifique et culturel."
   },
   {
@@ -131,6 +132,7 @@ const prestataires = [
     siteInternet: 'https://www.biblibre.com/fr/',
     citation: "BibLibre contribue activement à Numahop en publiant et en maintenant le code source, renforçant ainsi son engagement pour des solutions libres et ouvertes au service des bibliothèques.",
     photo: 'img/photos/biblibre.jpg',
+    logo: 'img/logos/biblibre-logo.png',
     description: "Spécialiste des logiciels libres pour les bibliothèques, BibLibre a intégré Numahop à son offre pour proposer une solution clé en main, maintenue et adaptée aux besoins des institutions."
   },
   {
@@ -138,7 +140,8 @@ const prestataires = [
     etablissement: 'Nanteuil-lès-Meaux',
     siteInternet: 'https://sempiternelia.net/',
     citation: "Sempiternelia intègre Numahop à son catalogue de services pour les bibliothèques, en proposant une solution complète incluant développement, hébergement et formation, adaptée aux enjeux des humanités numériques.",
-    photo: 'https://sempiternelia.net/wp-content/uploads/2020/09/logo-sempiternelia.png', // À vérifier si cette URL est correcte
+    photo: 'https://sempiternelia.net/wp-content/uploads/2020/09/logo-sempiternelia.png',
+    logo: 'img/logos/sempiternelia-logo.png',
     description: "Avec une expertise reconnue en humanités numériques, Sempiternelia a enrichi son panel de produits avec Numahop, offrant ainsi aux bibliothèques une solution flexible et intégrée."
   },
 ];
@@ -169,10 +172,10 @@ const CommunautePage = () => {
             <p>L'association est composée de membres institutionnels
               et de prestataires privés, tous engagés dans la
               préservation et la valorisation du patrimoine culturel numérique.</p>
-            <p>Le Bureau de l'association, élu pour deux ans lors des assemblées générales, 
-              se réuni régulièrement pour 
-              coordonner ces actions à l'échelle nationale et internationale, 
-              avec pour objectif d'assurer l'évolution du logiciel, et sa 
+            <p>Le Bureau de l'association, élu pour deux ans lors des assemblées générales,
+              se réuni régulièrement pour
+              coordonner ces actions à l'échelle nationale et internationale,
+              avec pour objectif d'assurer l'évolution du logiciel, et sa
               promotion aurpès des professionnels du secteur.</p>
             <a href="docs/statuts">Les statuts de l'association NumaHop <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
 
@@ -247,17 +250,17 @@ const CommunautePage = () => {
           <div className={styles.prestatairesGrid}>
             {prestataires.map((prestataire, index) => (
               <div key={index} className={styles.prestataireCard}>
-                <div className={styles.prestataireHeader}>
-                  <img src={prestataire.photo} alt={prestataire.auteur} className={styles.prestatairePhoto} />
-                  <div>
-                    <h3 className={styles.prestataireTitre}>
-                      <a href={prestataire.siteInternet} target="_blank" rel="noopener noreferrer" className={styles.prestataireLien}>
-                        {prestataire.auteur}
-                      </a>
-                    </h3>
-                    <p className={styles.prestataireEtablissement}>{prestataire.etablissement}</p>
-                  </div>
+                {/* Logo cliquable à la place de la photo et du titre */}
+                <div className={styles.prestataireLogoContainer}>
+                  <a href={prestataire.siteInternet} target="_blank" rel="noopener noreferrer">
+                    <img
+                      src={prestataire.logo}
+                      alt={`Logo ${prestataire.auteur}`}
+                      className={styles.prestataireLogo}
+                    />
+                  </a>
                 </div>
+
                 <div className={styles.prestataireContent}>
                   <p className={styles.prestataireDescription}>{prestataire.description}</p>
                   <div className={styles.prestataireCitationContainer}>

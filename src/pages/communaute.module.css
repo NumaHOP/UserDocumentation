@@ -325,6 +325,7 @@
   margin-top: 2rem;
 }
 
+/* Carte du prestataire */
 .prestataireCard {
   background: white;
   border-radius: 12px;
@@ -332,8 +333,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   transition: var(--numahop-transition);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  text-align: left;
-  position: relative;
+  text-align: center; /* Centrer le contenu */
 }
 
 .prestataireCard:hover {
@@ -342,58 +342,54 @@
   border-color: var(--numahop-primary);
 }
 
-.prestataireHeader {
+/* Conteneur du logo */
+.prestataireLogoContainer {
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-.prestatairePhoto {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
+/* Logo du prestataire */
+.prestataireLogo {
+  width: 160px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease;
 }
 
-.prestataireTitre {
-  font-size: 1.1rem;
-  margin: 0;
+.prestataireLogoContainer a:hover .prestataireLogo {
+  transform: scale(1.05);
 }
 
-.prestataireLien {
-  color: var(--numahop-primary);
-  text-decoration: none;
-  transition: color var(--numahop-transition);
-}
-
-.prestataireLien:hover {
-  color: var(--button-hover-color);
-  text-decoration: none;
-}
-
+/* Établissement */
 .prestataireEtablissement {
   font-size: 0.9rem;
   color: var(--numahop-text);
-  margin: 0;
+  margin: 0 0 1.5rem;
+  text-align: center;
 }
 
+/* Contenu de la carte */
 .prestataireContent {
-  padding: 1rem;
+  padding: 0 1rem;
   position: relative;
 }
 
+/* Description */
 .prestataireDescription {
   color: var(--numahop-text);
   line-height: 1.6;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1rem;
   font-size: 0.95rem;
+  text-align: left; /* Alignement à gauche pour la description */
 }
 
+/* Citation */
 .prestataireCitationContainer {
   position: relative;
   padding-left: 1rem;
   border-left: 3px solid var(--numahop-secondary);
+  text-align: left; /* Alignement à gauche pour la citation */
 }
 
 .quoteIcon {
