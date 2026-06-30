@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Configuration pour GitLab Pages
-  url: 'https://fgandolfi.gitlab.io/',
+  url: 'https://fgandolfi.gitlab.io',
   baseUrl: '/numahop-doc-user/',
 
   // Organisation et nom du projet
