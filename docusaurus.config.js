@@ -50,8 +50,10 @@ const config = {
           editUrl: 'https://gitlab.com/fgandolfi/numahop-doc-user/-/edit/main/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           editUrl: 'https://gitlab.com/fgandolfi/numahop-doc-user/-/edit/main/',
+          blogSidebarTitle: 'Dernières actualités',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: './src/css/custom.css',

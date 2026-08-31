@@ -113,9 +113,8 @@ const PresentationPage = () => {
               <li>Un gain de temps : outil intégré unique,
                 pas d’outils tiers et multiples.</li>
               <li>Une plus grande fiabilité et qualité sur toutes
-                les étapes de la chaîne : contrôles automatisés,
-                conversions automatisées.</li>
-              <li>Une prise en main facilitée par les équipes : outil
+                les étapes de la chaîne : contrôles et conversions automatisées.</li>
+              <li>Une prise en main par les équipes facilitée : outil
                 intégré pour toutes les étapes, confort de travail
                 et ergonomie.</li>
               <li>Des coûts limités : fichiers dérivés et OCR produits
@@ -137,6 +136,25 @@ const PresentationPage = () => {
           </div>
 
         </header>
+
+        {/* Section des fonctionnalités */}
+        <section className={styles.features}>
+          <h2 className={styles.sectionTitle}>
+            <FontAwesomeIcon icon={faCog} className={styles.sectionIcon} />
+            Fonctionnalités clés
+          </h2>
+          <div className={styles.featuresGrid}>
+            {features.map((feature, index) => (
+              <FeatureCard
+                key={index}
+                icon={feature.icon}
+                title={feature.title}
+                description={feature.description}
+                tags={feature.tags}
+              />
+            ))}
+          </div>
+        </section>
 
         {/* Section des vidéos de démonstration */}
         <section className={styles.videosSection}>
@@ -185,26 +203,6 @@ const PresentationPage = () => {
               <div className={styles.videoTitle}>Journées professionnelles 2019<br />Bibliothèque universitaire des langues et civilisations</div>
             </div>
 
-          </div>
-        </section>
-
-
-        {/* Section des fonctionnalités */}
-        <section className={styles.features}>
-          <h2 className={styles.sectionTitle}>
-            <FontAwesomeIcon icon={faCog} className={styles.sectionIcon} />
-            Fonctionnalités clés
-          </h2>
-          <div className={styles.featuresGrid}>
-            {features.map((feature, index) => (
-              <FeatureCard
-                key={index}
-                icon={feature.icon}
-                title={feature.title}
-                description={feature.description}
-                tags={feature.tags}
-              />
-            ))}
           </div>
         </section>
 

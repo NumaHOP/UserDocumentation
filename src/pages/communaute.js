@@ -113,6 +113,19 @@ const membres = [
     logo: 'img/logos/mqb-logo.png',
     siteInternet: 'https://www.quaibranly.fr/fr/',
   },
+    {
+    nom: 'Musée du Louvre',
+    ville: 'Paris',
+    logo: 'img/logos/louvre-logo.png',
+    siteInternet: 'https://www.louvre.fr/',
+    bibliothequeNumerique: 'https://collections.louvre.fr/'
+  },
+    {
+    nom: 'Musée d\'Orsay',
+    ville: 'Paris',
+    logo: 'img/logos/orsay-logo.png',
+    siteInternet: 'https://www.musee-orsay.fr/fr',
+  }
 ];
 
 // Prestataires
