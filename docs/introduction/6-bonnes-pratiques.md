@@ -67,3 +67,7 @@ Pour garantir des performances optimales et une qualité de traitement constante
 - **Coordonner les livraisons** pour éviter les surcharges du serveur.
 
 Ces bonnes pratiques permettent d'assurer un processus fluide et efficace pour tous les utilisateurs de NumaHop.
+
+TEST pour NHASK
+
+Si une unité documentaire est bloquée, il faut prevenir le prestataire de maintenance pour déblocage!
