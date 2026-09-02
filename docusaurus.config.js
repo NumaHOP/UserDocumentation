@@ -7,7 +7,7 @@ import { faHome, faUsers, faBook, faGlobe, faSearch, faInfoCircle, faNewspaper }
 const config = {
   // Champs obligatoires
   title: 'NumaHop',
-  tagline: 'Logiciel open source de gestion de collections numérisées portée par une communauté active.',
+  tagline: 'Logiciel open source de gestion de collections numérisées porté par une communauté active.',
   favicon: 'img/favicon.ico',
 
   // Configuration pour GitLab Pages

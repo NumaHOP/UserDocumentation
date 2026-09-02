@@ -190,7 +190,7 @@ const CommunautePage = () => {
               coordonner ces actions à l'échelle nationale et internationale,
               avec pour objectif d'assurer l'évolution du logiciel, et sa
               promotion aurpès des professionnels du secteur.</p>
-            <a href="docs/statuts">Les statuts de l'association NumaHop <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
+            <a href="/numahop-doc-user/statuts">Les statuts de l'association NumaHop <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
 
           </div>
 
