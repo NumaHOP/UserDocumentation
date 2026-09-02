@@ -37,7 +37,10 @@ To this end, the association in particular:
 
 The registered office is located at:
 
-_Bibliothèque de Sorbonne Université, Tour Zamansky, 15th floor – PO Box 192 – 4 place Jussieu, 75252 PARIS CEDEX 05_
+_Bibliothèque universitaire des Langues et Civilisations_
+_Signalement et Exposition des Données_
+_65 rue des Grands Moulins_
+_75013 Paris XIIIe_
 
 It may be transferred by simple decision of the board.
 

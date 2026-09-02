@@ -37,7 +37,10 @@ Pour cela, l’association notamment :
 
 Le siège social est fixé  à l’adresse suivante :
 
-_Bibliothèque de Sorbonne Université, Tour Zamansky, 15e étage – Boîte courrier 192 – 4 place Jussieu, 75252 PARIS CEDEX 05_
+_Bibliothèque universitaire des Langues et Civilisations,_
+_Signalement et Exposition des Données,_
+_65 rue des Grands Moulins,_
+_75013 Paris XIIIe_
 
 Il pourra être transféré par simple décision du bureau. 
 
