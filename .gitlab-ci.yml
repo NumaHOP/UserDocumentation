@@ -34,3 +34,17 @@ pages:
       - public/
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+notify-nhask:
+  stage: deploy
+  image: curlimages/curl:latest
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+  script:
+    - >
+      curl --fail --request POST
+      --form token=$NHASK_TRIGGER_TOKEN
+      --form ref=main
+      "https://gitlab.huma-num.fr/api/v4/projects/humatheque-condorcet%2Foutils-numeriques%2Fnhask/trigger/pipeline"
+  only:
+    - main
