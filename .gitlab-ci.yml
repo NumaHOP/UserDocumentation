@@ -46,5 +46,3 @@ notify-nhask:
       --form token=$NHASK_TRIGGER_TOKEN
       --form ref=main
       "https://gitlab.huma-num.fr/api/v4/projects/humatheque-condorcet%2Foutils-numeriques%2Fnhask/trigger/pipeline"
-  only:
-    - main
