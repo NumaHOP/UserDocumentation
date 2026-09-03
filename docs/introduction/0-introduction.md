@@ -11,7 +11,7 @@ import Icon from '@site/src/components/Icon';
 *Projet porté par **BibLibre** pour **Collex/Persée***
 
 ---
-
+Le siège social de l'association NumaHOP est fixé à l'adresse suivante : Bibliothèque de Sorbonne Université, Tour Zamansky, 15e étage – Boîte courrier 192 – 4 place Jussieu, 75252 PARIS CEDEX 05.
 ---
 
 ## 📌 **1. Présentation du Logiciel et de son Usage**
