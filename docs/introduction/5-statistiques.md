@@ -30,11 +30,13 @@ Les données peuvent être filtrées par **projet** ou **dates**.
 
 ### Suivi des documents publiés
 
-_A documenter_
+:::warning En cours de rédaction
+:::
 
 ### Suivi des documents rejetés
 
-_A documenter_
+:::warning En cours de rédaction
+:::
 
 ## Etats d'avancement
 

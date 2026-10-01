@@ -2,72 +2,40 @@
 title: Bonnes pratiques
 sidebar_label: Bonnes pratiques
 sidebar_position: 6
-description: Volumétrie et bonnes pratiques pour NumaHop
+description: Recommandations pour optimiser les performances et la qualité des traitements dans NumaHop
 ---
 
 import Icon from '@site/src/components/Icon';
 
 # <Icon icon={["fa", "thumbs-up"]} /> Bonnes pratiques
 
-:::warning Page en cours de rédaction
-:::
 
-La question de la **volumétrie** concernant une application logicielle reste une problématique complexe, car elle implique la prise en compte de nombreux paramètres variés et interdépendants. Parmi ceux-ci, on peut citer :
-- Le nombre d'utilisateurs
-- Les caractéristiques du serveur
-- La quantité de données
-- La taille de ces données
-- La nature et le séquencement des opérations réalisées
-- Le nombre d'opérations lancées simultanément
-- ...
+Le **dimensionnement** d’une application comme NumaHop dépend de multiples facteurs interconnectés (nombre d’utilisateurs actifs, ressources du serveur, volume et taille des données, niveau de concurrence des traitements). Cette complexité rend nécessaire l’adoption de **bonnes pratiques** pour garantir la stabilité, la performance et la qualité des processus.
 
-Cette liste n'est pas exhaustive.
+NumaHop repose sur un **cœur fonctionnel** centré sur les processus de **livraison et de contrôle**. L'analyse des données traitées en production a permis d’identifier des règles optimales pour maintenir un équilibre entre qualité et performance.
 
----
+### Dimensionnement des lots d’Unités Documentaires (UD)
 
-## Focus sur NumaHop
+Le nombre d’**UD par lot**, leur **nombre de pages** et le **poids des fichiers masters** associés sont les leviers principaux pour optimiser les traitements.
 
-Pour NumaHop, concentrons-nous d'abord sur le cœur fonctionnel de ses traitements : **le processus de livraison et de contrôle**. Notre analyse des données traitées et notre retour d'expérience permettent de dégager quelques bonnes pratiques pour garantir la qualité du processus et des performances acceptables pour les utilisateurs.
-
-
-### Dimensionnement des lots
-
-Le nombre d'**unités documentaires (UD)**, le nombre de pages qui les constituent, ainsi que la taille des fichiers masters associés, sont des paramètres clés à considérer.
-
-#### Recommandations pour le poids par UD et le nombre d'UD par lot
-
-| Poids par UD       | Nombre d'UD conseillé par lot |
-|--------------------|-------------------------------|
-| Jusqu'à 50 Mo      | Jusqu'à 500                   |
-| De 50 à 100 Mo     | Jusqu'à 300                   |
-| De 100 à 500 Mo    | Jusqu'à 150                   |
-| De 500 Mo à 1 Go   | Jusqu'à 50                    |
-| De 1 Go à 5 Go     | Jusqu'à 20                    |
-| De 5 Go à 10 Go    | Jusqu'à 10                    |
-| Au-delà de 10 Go   | Jusqu'à 5                     |
+| **Poids moyen par UD**  | **Nombre maximal d’UD par lot** | **Cas d’usage typique**          |
+|-------------------------|----------------------------------|-----------------------------------|
+| ≤ 50 Mo                 | 500                              | Documents légers (PDF simples)    |
+| 50 Mo – 100 Mo          | 300                              | Documents standards               |
+| 100 Mo – 500 Mo         | 150                              | Documents riches (images HD)      |
+| 500 Mo – 1 Go           | 50                               | Fichiers volumineux               |
+| 1 Go – 5 Go             | 20                               | Archives ou dossiers complets    |
+| 5 Go – 10 Go            | 10                               | Fichiers très lourds              |
+| > 10 Go                 | 5                                | Cas exceptionnels                 |
 
 
-### Précisions sur les recommandations
+### Gestion des ressources serveur
 
-Ces valeurs sont **indicatives**. Si une minorité d'unités documentaires dépasse les seuils de poids indiqués, cela n'invalide pas nécessairement le nombre conseillé pour le lot. Par exemple :
+Les performances dépendent aussi de **l’activité globale du serveur**, en évitant de lancer des livraisons **simultanées** si le serveur est déjà sollicité par d’autres traitements. Par ailleurs, il est préférable de coordonner les plannings de livraison avec les autres utilisateurs pour répartir la charge.
 
-- Si la majorité des UD ne dépasse pas **50 Mo**, mais que quelques-unes (moins de 5%) sont au-delà, le nombre conseillé de **500 UD** peut rester valide.
-- En revanche, si parmi ces 5% excédant le seuil de 50 Mo, la majorité dépasse **1 Go**, il est préférable de **restreindre le nombre d'UD** dans le lot.
+### Bonnes pratiques
 
-
-### Impact de l'utilisation du serveur
-
-Ces valeurs doivent également être ajustées en fonction de l'utilisation du serveur. Si d'autres livraisons sont en cours au moment de lancer la vôtre, cela peut impacter la qualité du processus et les performances.
-
-
-## Conclusion
-
-Pour garantir des performances optimales et une qualité de traitement constante, il est recommandé de :
-- **Définir des lots homogènes** en termes de poids.
-- **Coordonner les livraisons** pour éviter les surcharges du serveur.
-
-Ces bonnes pratiques permettent d'assurer un processus fluide et efficace pour tous les utilisateurs de NumaHop.
-
-TEST pour NHASK
-
-Si une unité documentaire est bloquée, il faut prevenir le prestataire de maintenance pour déblocage!
+Pour garantir des **performances optimales** et une **qualité de traitement constante**, il convient de :
+- **homogénéiser les lots** en regroupant les unités documentaires par tranches de poids similaires ;
+- **planifier les livraisons** en échelonnant les traitements et éviter les pics de charge ;
+- **surveiller les exceptions**, en particulier si une unités documentaires bloquée nécessite l’intervention du **prestataire de maintenance**.
