@@ -10,13 +10,13 @@ const config = {
   tagline: 'Logiciel open source de gestion de collections numérisées porté par une communauté active.',
   favicon: 'img/favicon.ico',
 
-  // Configuration pour GitLab Pages
-  url: 'https://fgandolfi.gitlab.io',
-  baseUrl: '/numahop-doc-user/',
+  // Configuration pour GitHub Pages
+  url: 'https://numahop.github.io',
+  baseUrl: '/UserDocumentation/',
 
   // Organisation et nom du projet
-  organizationName: 'asso-numahop',
-  projectName: 'numahop-doc-user',
+  organizationName: 'NumaHOP',
+  projectName: 'UserDocumentation',
 
   // Gestion des liens brisés
   onBrokenLinks: 'throw',
@@ -47,11 +47,11 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           showLastUpdateTime: true,
-          editUrl: 'https://gitlab.com/fgandolfi/numahop-doc-user/-/edit/main/',
+          editUrl: 'https://github.com/NumaHOP/UserDocumentation/edit/main/',
         },
         blog: {
           showReadingTime: false,
-          editUrl: 'https://gitlab.com/fgandolfi/numahop-doc-user/-/edit/main/',
+          editUrl: 'https://github.com/NumaHOP/UserDocumentation/edit/main/',
           blogSidebarTitle: 'Dernières actualités',
           blogSidebarCount: 'ALL',
         },
