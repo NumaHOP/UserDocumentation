@@ -1,13 +1,15 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import styles from './statuts.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 export default function StatutsPage() {
   return (
-    <Layout title="Statuts de l'association NumaHop" description="Statuts de l'association NumaHop">
+    <Layout title="Statuts de l'association NumaHOP" description="Statuts de l'association NumaHOP">
       <div className={styles.container}>
         <div className={styles.content}>
-          <h1>Statuts de l'association NumaHop</h1>
+          <h1>Statuts de l'association NumaHOP</h1>
 
           <h2>PRÉAMBULE</h2>
           <p>
@@ -178,7 +180,7 @@ export default function StatutsPage() {
           </p>
 
           <p>
-            <em>Date de validation des présents statuts : Assemblée générale du 22 janvier 2026.</em>
+            <em><a href="https://annuaire-entreprises.data.gouv.fr/entreprise/association-numahop-924455132#etablissements">Statuts déposés le 22 janvier 2026</a> <FontAwesomeIcon icon={faExternalLinkAlt} />.</em>
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ import { faHome, faUsers, faBook, faGlobe, faSearch, faInfoCircle, faNewspaper }
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   // Champs obligatoires
-  title: 'NumaHop',
+  title: 'NumaHOP',
   tagline: 'Logiciel open source de gestion de collections numérisées porté par une communauté active.',
   favicon: 'img/favicon.ico',
 
@@ -85,7 +85,7 @@ const config = {
 
       // Barre de navigation
       navbar: {
-        title: 'NumaHop',
+        title: 'NumaHOP',
         logo: {
           alt: 'Logo NumaHOP',
           src: 'img/logo.svg',
@@ -133,7 +133,7 @@ const config = {
       // Pied de page
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} Association NumaHop`,
+        copyright: `Copyright © ${new Date().getFullYear()} Association NumaHOP`,
       },
     }),
 

@@ -9,7 +9,7 @@ import Icon from '@site/src/components/Icon';
 
 # <Icon icon={["fa", "chalkboard-user"]} /> Tableau de bord
 
-Le logo NumaHop situé en haut à droite de la page permet d'acceder directement au tableau de bord (_Dashbord_). Il présente à l’utilisateur connecté les **actions à effectuer** et les **données de l'insatnce**.
+Le logo NumaHOP situé en haut à droite de la page permet d'acceder directement au tableau de bord (_Dashbord_). Il présente à l’utilisateur connecté les **actions à effectuer** et les **données de l'insatnce**.
 
 - les **actions à effectuer**, et pour lesquelles il est habilité, sont affichées automatiquement en fonction des contrôles réalisés et des étapes du workflow ;
 - les **indicateurs** préalablement organisés par l'utilisateur, qui définit les **_widgets_** de son propre tableau de bord.

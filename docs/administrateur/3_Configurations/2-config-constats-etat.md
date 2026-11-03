@@ -13,7 +13,7 @@ import Icon from '@site/src/components/Icon';
 
 Paramétrer la grille de constat d’état pour la simplifier ou l’adapter à
 ses besoins est possible. Cependant, il est important de noter que
-certaines modifications impacteront toutes les instances NumaHop
+certaines modifications impacteront toutes les instances NumaHOP
 partageant un même serveur.
 
 #### Ouvrir la configuration du template
@@ -28,7 +28,7 @@ retrouve dans le constat.
 
 Il est possible de modifier une propriété, de modifier ses valeurs
 correspondantes, et de la supprimer. Ces modifications impactent tous
-les établissements qui partagent un serveur NumaHop commun.
+les établissements qui partagent un serveur NumaHOP commun.
 
 Il est également possible de rendre une propriété obligatoire ou non et
 de lui assigner un champ commentaire. Ces modifications n’impactent que
@@ -42,11 +42,11 @@ tenu des différentes typologies de documents qui seront concernés.
 :::
 
 Une fois le template créé, il faut qu’il soit enregistré dans le menu
-« Template » de l’interface NumaHop. 
+« Template » de l’interface NumaHOP. 
 
 :::info  Indiquer au prestataire qui assure votre support que des modifications ont été apportées au template. 
 De manière à ce que les techniciens puissent enregistrer ce template comme modèle dans la base.
-Il est également possible de transmettre une signature de l’institution pour intégrer celle-ci au template, de manière à sortir de NumaHop des constats d’état signés et validés par l’institution.
+Il est également possible de transmettre une signature de l’institution pour intégrer celle-ci au template, de manière à sortir de NumaHOP des constats d’état signés et validés par l’institution.
 :::
 
 ###### Les modifications communes
@@ -68,7 +68,7 @@ supprimer ou en rajouter une en cliquant sur le <Icon icon={["fa", "square-plus"
 
 ###### Les modifications locales
 
-En cas de partage d’un serveur NumaHop par plusieurs établissements, un
+En cas de partage d’un serveur NumaHOP par plusieurs établissements, un
 encart permet de procéder à des modifications strictement locales,
 c’est-à-dire uniquement visibles pour l’établissement concerné. Il s’agit de l’encart du milieu, intitulé au nom de l’institution.
 

@@ -2,7 +2,7 @@
 title: Bonnes pratiques
 sidebar_label: Bonnes pratiques
 sidebar_position: 6
-description: Recommandations pour optimiser les performances et la qualité des traitements dans NumaHop
+description: Recommandations pour optimiser les performances et la qualité des traitements dans NumaHOP
 ---
 
 import Icon from '@site/src/components/Icon';
@@ -10,9 +10,9 @@ import Icon from '@site/src/components/Icon';
 # <Icon icon={["fa", "thumbs-up"]} /> Bonnes pratiques
 
 
-Le **dimensionnement** d’une application comme NumaHop dépend de multiples facteurs interconnectés (nombre d’utilisateurs actifs, ressources du serveur, volume et taille des données, niveau de concurrence des traitements). Cette complexité rend nécessaire l’adoption de **bonnes pratiques** pour garantir la stabilité, la performance et la qualité des processus.
+Le **dimensionnement** d’une application comme NumaHOP dépend de multiples facteurs interconnectés (nombre d’utilisateurs actifs, ressources du serveur, volume et taille des données, niveau de concurrence des traitements). Cette complexité rend nécessaire l’adoption de **bonnes pratiques** pour garantir la stabilité, la performance et la qualité des processus.
 
-NumaHop repose sur un **cœur fonctionnel** centré sur les processus de **livraison et de contrôle**. L'analyse des données traitées en production a permis d’identifier des règles optimales pour maintenir un équilibre entre qualité et performance.
+NumaHOP repose sur un **cœur fonctionnel** centré sur les processus de **livraison et de contrôle**. L'analyse des données traitées en production a permis d’identifier des règles optimales pour maintenir un équilibre entre qualité et performance.
 
 ### Dimensionnement des lots d’Unités Documentaires (UD)
 

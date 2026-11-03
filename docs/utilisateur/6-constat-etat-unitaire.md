@@ -67,17 +67,17 @@ s’affiche et est prête pour être remplie.
 #### Propriétés et valeurs du constat d'état
 
 A noter : les propriétés décrites ci-dessous et leurs valeurs ne sont
-pas les éléments par défaut de NumaHop. Il est effectivement possible de
+pas les éléments par défaut de NumaHOP. Il est effectivement possible de
 renommer les propriétés dans les parties, d’en supprimer et d’en
 rajouter. Il est également possible de rajouter et de supprimer des
 valeurs correspondantes.
 
-Attention : en cas de partage de serveur NumaHop par plusieurs
+Attention : en cas de partage de serveur NumaHOP par plusieurs
 établissements, les modifications effectuées impactent toutes les
-instances NumaHop de ces établissements.
+instances NumaHOP de ces établissements.
 
 Les propriétés et valeurs ci-dessous ont été renommées et ne sont plus
-les mêmes que l’instance NumaHop par défaut.
+les mêmes que l’instance NumaHOP par défaut.
 
 Il est possible, pour chaque propriété, de la rendre optionnelle ou même
 de la masquer, d’associer ou non la possibilité de rajouter un
@@ -196,7 +196,7 @@ menu « Documents », et cliquer sur « unités documentaires » :
 
  
 
-La liste de toutes les unités documentaires créées dans NumaHop
+La liste de toutes les unités documentaires créées dans NumaHOP
 apparaît. Pour n’afficher que celles dont il faut dresser des constats,
 utiliser la fonction filtre.
 
@@ -274,7 +274,7 @@ Le détail de l’unité documentaire s’ouvre. Cliquer sur l’onglet
 « Constat d’état » :
 
 On voit que le constat d’état réalisé dans le fichier excel a été
-importé dans NumaHop. Il est possible de le modifier si nécessaire.
+importé dans NumaHOP. Il est possible de le modifier si nécessaire.
 
 #### Exporter un bordereau de constats d'état
 
@@ -351,7 +351,7 @@ Le fichier se télécharge, et s’intitule « condition\_report\_cote.pdf ».
 S’il y a eu un constat d’état de retour, le document téléchargé présente
 les deux états : initial et de retour.
 
-Le constat d’état est charté NumaHop et comporte le template de la
+Le constat d’état est charté NumaHOP et comporte le template de la
 signature d’un membre de la direction.
 
 ---

@@ -11,7 +11,7 @@ import Icon from '@site/src/components/Icon';
 
 
 :::info Objectif
-Cette démarche permet d'obtenir des instruments de recherche au format **XML-EAD**, compatible avec NumaHop. La procédure d'export est détaillée dans le [**Manuel du correspondant CALAMES**](https://documentation.abes.fr/aidecalames/manuelcorrespondant/index.html#ExporterFichierProcedure).
+Cette démarche permet d'obtenir des instruments de recherche au format **XML-EAD**, compatible avec NumaHOP. La procédure d'export est détaillée dans le [**Manuel du correspondant CALAMES**](https://documentation.abes.fr/aidecalames/manuelcorrespondant/index.html#ExporterFichierProcedure).
 :::
 
 ### Depuis l'outil de cataloguage
@@ -45,6 +45,6 @@ Les données du catalogue CALAMES sont moissonnables grâce au protocole OAI-PMH
 - Les données Dublin Core correspondent à une granularité plus fine, mais le passage d'une structure hiérarchique à un lot d'enregistrements de même niveau entraîne un appauvrissement significatif des informations. Par ailleurs, le seul champ de filtre disponible est celui de la date de publication. On peut tout de même récuperer les notices pour un établissement, en l'occurence l'Humathèque Condorcet, pour l'année 2025 avec la requête `https://calames.abes.fr/oai/oai2.aspx?verb=ListRecords&metadataPrefix=oai_dc&set=930019801&from=2025-01-01&until=2025-12-31`.
 
 
-## Chargement dans NumaHop
+## Chargement dans NumaHOP
 
-Le fichier `.xml`  peut être chargé dans NumaHop en suivant les procedures d'import [des notice simples](/docs/utilisateur/5_Imports/1-notices-simples.md) ou des [notices mères-filles](/docs/utilisateur/5_Imports/2-notices-meres-filles.md).
+Le fichier `.xml`  peut être chargé dans NumaHOP en suivant les procedures d'import [des notice simples](/docs/utilisateur/5_Imports/1-notices-simples.md) ou des [notices mères-filles](/docs/utilisateur/5_Imports/2-notices-meres-filles.md).

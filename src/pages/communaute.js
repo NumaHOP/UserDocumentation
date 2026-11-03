@@ -134,10 +134,10 @@ const prestataires = [
     auteur: 'Tech\'Advantage',
     etablissement: 'Rueil-Malmaison',
     siteInternet: 'https://www.tech-advantage.com/',
-    citation: "Tech’Advantage a accompagné le développement initial de NumaHop, en capitalisant sur son expertise historique en solutions numériques pour les bibliothèques et les institutions culturelles, héritée de Progilone.",
+    citation: "Tech’Advantage a accompagné le développement initial de NumaHOP, en capitalisant sur son expertise historique en solutions numériques pour les bibliothèques et les institutions culturelles, héritée de Progilone.",
     photo: 'img/photos/techadvantage.jpg',
     logo: 'img/logos/techadvantage-logo.png',
-    description: "Prestataire historique, Tech’Advantage a joué un rôle clé dans la conception et le déploiement de NumaHop, en s’appuyant sur son héritage technique et son expérience de plus de 30 ans dans le numérique scientifique et culturel."
+    description: "Prestataire historique, Tech’Advantage a joué un rôle clé dans la conception et le déploiement de NumaHOP, en s’appuyant sur son héritage technique et son expérience de plus de 30 ans dans le numérique scientifique et culturel."
   },
   {
     auteur: 'BibLibre',
@@ -175,14 +175,12 @@ const CommunautePage = () => {
               gestion des contenus et de
               l’interopérabilité des données.
             </p>
-            <p>Elle œuvre à partager les pratiques et à
+            <p>L'association œuvre à partager les pratiques et à
               renforcer les dynamiques de mutualisation,
-              en menant des actions de formation, de
-              traduction, et de documentation, ainsi que
-              de développement de nouvelles
-              fonctionnalités au sein du logiciel libre
-              NumaHop.</p>
-            <p>L'association est composée de membres institutionnels
+              en menant des <strong>actions de communication, de formation, de
+              traduction, et de documentation</strong>, et porte les développements de nouvelles
+              fonctionnalités pour logiciel libre.</p>
+            <p>Elle est composée de membres institutionnels
               et de prestataires privés, tous engagés dans la
               préservation et la valorisation du patrimoine culturel numérique.</p>
             <p>Le Bureau de l'association, élu pour deux ans lors des assemblées générales,
@@ -190,7 +188,7 @@ const CommunautePage = () => {
               coordonner ces actions à l'échelle nationale et internationale,
               avec pour objectif d'assurer l'évolution du logiciel, et sa
               promotion aurpès des professionnels du secteur.</p>
-            <a href="/UserDocumentation/statuts">Les statuts de l'association NumaHop <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
+            <a href="/UserDocumentation/statuts">Les statuts de l'association NumaHOP <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
 
           </div>
 
@@ -302,7 +300,7 @@ const CommunautePage = () => {
               </div>
               <h3 className={styles.cardTitle}>Échangez avec la communauté</h3>
               <p className={styles.cardDescription}>
-                Partagez vos retours d'experience, et apprenez de la communauté des utilisateurs de NumaHop.
+                Partagez vos retours d'experience, et apprenez de la communauté des utilisateurs de NumaHOP.
               </p>
               <a
                 className={clsx('button button--primary', styles.cardButton)}
@@ -322,14 +320,14 @@ const CommunautePage = () => {
               </div>
               <h3 className={styles.cardTitle}>Devenez membre de l’association</h3>
               <p className={styles.cardDescription}>
-                Soutenez le projet et ses developpements en adhérant à l'association NumaHop.
+                Soutenez le projet et ses developpements en adhérant à l'association NumaHOP.
               </p>
               <a
                 className={clsx('button button--primary', styles.cardButton)}
                 href="mailto:association-numahop@sorbonne-nouvelle.fr?subject=Demande%20d%27adhésion%20à%20NumaHOP&body=Bonjour,%0D%0A%0D%0AJe souhaite adhérer à l%27association NumaHOP. Pouvez-vous me transmettre les modalités ?%0D%0A%0D%0ACordialement,%0D%0A"
               >
                 <FontAwesomeIcon icon={faEnvelope} className={styles.buttonIcon} />
-                Contacter l'association NumaHop
+                Contacter l'association NumaHOP
               </a>
             </div>
           </div>

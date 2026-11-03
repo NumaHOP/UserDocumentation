@@ -2,7 +2,7 @@
 title: Best Practices
 sidebar_label: Best Practices
 sidebar_position: 6
-description: Volume recommendations and best practices for NumaHop
+description: Volume recommendations and best practices for NumaHOP
 ---
 
 import Icon from '@site/src/components/Icon';
@@ -25,9 +25,9 @@ This list is not exhaustive.
 
 ---
 
-## Focus on NumaHop
+## Focus on NumaHOP
 
-For NumaHop, let's first focus on the functional core of its processing: **the delivery and quality control process**. Our analysis of processed data and operational experience allow us to define best practices to ensure process quality and acceptable performance for users.
+For NumaHOP, let's first focus on the functional core of its processing: **the delivery and quality control process**. Our analysis of processed data and operational experience allow us to define best practices to ensure process quality and acceptable performance for users.
 
 ### Batch sizing
 
@@ -62,4 +62,4 @@ To ensure optimal performance and consistent processing quality, it is recommend
 - **Define homogeneous batches** in terms of file size.
 - **Coordinate deliveries** to avoid server overload.
 
-These best practices help ensure a smooth and efficient process for all NumaHop users.
+These best practices help ensure a smooth and efficient process for all NumaHOP users.

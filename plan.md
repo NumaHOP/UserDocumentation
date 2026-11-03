@@ -1,7 +1,7 @@
 [Introduction](introduction.md)
 
 [Administration]()
-  [NumaHop]()
+  [NumaHOP]()
     [Connexion/Deconnexion]()
     [Ergonomie]()
 

@@ -19,7 +19,7 @@ const FeatureList = [
     Icon: faCode,
     description: (
       <>
-        NumaHop est un logiciel libre permet désormais d'accélérer, de simplifier les projets de numérisation, grâce à un interfaçage largement automatisé entre les différentes étapes de la numérisation et les acteurs concernés (prestataires de numérisation, bibliothèques, diffuseurs, CINES).
+        NumaHOP est un logiciel libre permet désormais d'accélérer, de simplifier les projets de numérisation, grâce à un interfaçage largement automatisé entre les différentes étapes de la numérisation et les acteurs concernés (prestataires de numérisation, bibliothèques, diffuseurs, CINES).
       </>
     ),
   },

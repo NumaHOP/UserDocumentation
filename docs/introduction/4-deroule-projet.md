@@ -9,15 +9,15 @@ import Icon from '@site/src/components/Icon';
 
 # <Icon icon={["fa", "diagram-project"]} /> Déroulé d'un projet
 
-![Déroulé des projets NumaHop](/img/numahop-objets.png)
+![Déroulé des projets NumaHOP](/img/numahop-objets.png)
 
 On distingue deux principaux types de projets.
 
 - les **projets standards**, qui couvrent l’intégralité du cycle de vie des documents, de la sélection des documents physiques et de leur signalement, jusqu’à la diffusion et à l'archivage des reproductions numériques ;
-- les **reprises de passif**, qui visent à intégrer des documents déjà numérisés dans NumaHop, sans passer par une phase de numérisation physique, pour permettre une structuration, un contrôle, une diffusion et le cas échant un archivage, pour en faire un ensemble cohérent.
+- les **reprises de passif**, qui visent à intégrer des documents déjà numérisés dans NumaHOP, sans passer par une phase de numérisation physique, pour permettre une structuration, un contrôle, une diffusion et le cas échant un archivage, pour en faire un ensemble cohérent.
 
 :::warning Ordre des interventions
-Le déroulé de ces projets types détaillé ci-dessous reposent d'abord sur le parametrage des configurations de NumaHop, puis sur l'enchaînement des étapes d'un _worflow_.
+Le déroulé de ces projets types détaillé ci-dessous reposent d'abord sur le parametrage des configurations de NumaHOP, puis sur l'enchaînement des étapes d'un _worflow_.
 
 - les étapes de configuration peuvent être **effectuées dans n'importe quel ordre**, à condition que le _workflow_ n’ait pas été démarré au niveau d'un lot ;
 - le démarrage d'un _worflow_ impose le **respect strict des étapes successives** qu'il définit.

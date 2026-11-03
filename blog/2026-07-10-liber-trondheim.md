@@ -16,4 +16,4 @@ L'occasion de revenir sur les évolutions de NumaHOP, sur la dynamique de la com
 
 <!-- truncate -->
 
-![NumaHop à LIBER 2026](/img/visuels/liber-trondheim.jpg)
+![NumaHOP à LIBER 2026](/img/visuels/liber-trondheim.jpg)

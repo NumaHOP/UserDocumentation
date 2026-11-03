@@ -63,4 +63,4 @@ Cependant, il reste des défis à relever, notamment sur le plan technique, où 
 Cette ANF a confirmé que NumaHOP dispose d’atouts majeurs pour son avenir, mais aussi de pistes claires pour progresser. Les échanges avec les autres participants ont été riches en enseignements, et les retours positifs sur le projet renforcent sa légitimité dans l’écosystème du logiciel libre.
 
 
-![NumaHop à l'ANF Construction et animation d'une communauté autour du développement d'un logiciel libre](/img/visuels/anf-autrans.jpg)
+![NumaHOP à l'ANF Construction et animation d'une communauté autour du développement d'un logiciel libre](/img/visuels/anf-autrans.jpg)

@@ -23,7 +23,7 @@ srcset="https://www.numahop.fr/wp-content/uploads/2022/11/controle-qualite-1.png
 sizes="(max-width: 680px) 100vw, 680px" width="680" height="515" />](https://www.numahop.fr/wp-content/uploads/2022/11/controle-qualite-1.png)
 
 Le contrôle qualité intervient après livraison des fichiers par le
-prestataire. NumaHop effectue d’abord une série de contrôles automatisés
+prestataire. NumaHOP effectue d’abord une série de contrôles automatisés
 en fonction du paramétrage effectué.
 
 Une fois les contrôles automatiques validés, les documents passent en
@@ -32,7 +32,7 @@ niveaux de contrôle :
 
 ##### Les principe du contrôle qualité
 
-Le contrôle qualité dans NumaHop se fait grâce à la visionneuse
+Le contrôle qualité dans NumaHOP se fait grâce à la visionneuse
 embarquée. Selon les paramétrages choisis, il peut être :
 
  
@@ -41,7 +41,7 @@ D’autre part, le contrôle qualité prévoit l’apposition d’erreurs sur le
 pages concernées. Il y a deux types d’erreurs, majeures et mineures. De
 la même façon que pour le type de contrôle, le pourcentage d’erreurs
 acceptées est indiqué dans les paramétrages. Passé ce pourcentage
-d’erreurs, NumaHop proposera de rejeter le document.
+d’erreurs, NumaHOP proposera de rejeter le document.
 
  
 
@@ -91,7 +91,7 @@ C’est un pourcentage qu’il faut rentrer.
 
 Un pourcentage de 20% de taux d’erreurs majeures signifie que pour un
 document de 10 pages contenant 3 erreurs majeures (30%) enregistrées,
-NumaHop proposera le rejet du document.
+NumaHOP proposera le rejet du document.
 
 Voici les erreurs enregistrées :
 
@@ -131,7 +131,7 @@ Libre à chaque établissement de rendre ces contrôles actifs ou pas. De
 la même manière, ces contrôles peuvent être, si actifs, bloquants ou
 pas.
 
-Si un contrôle est activé et bloquant, NumaHop va rejeter la livraison
+Si un contrôle est activé et bloquant, NumaHOP va rejeter la livraison
 d’un document non conforme, avant même que le contrôle qualité puisse
 s’effectuer.
 
@@ -351,7 +351,7 @@ class="alignnone wp-image-754 size-full" loading="lazy" decoding="async"
 srcset="https://www.numahop.fr/wp-content/uploads/2022/11/controle-qualite-23.png 783w, https://www.numahop.fr/wp-content/uploads/2022/11/controle-qualite-23-300x166.png 300w, https://www.numahop.fr/wp-content/uploads/2022/11/controle-qualite-23-768x425.png 768w"
 sizes="(max-width: 783px) 100vw, 783px" width="783" height="433" />](https://www.numahop.fr/wp-content/uploads/2022/11/controle-qualite-23.png)
 
-Si le nombre d’erreurs dépasse le seuil acceptable, NumaHop affiche une
+Si le nombre d’erreurs dépasse le seuil acceptable, NumaHOP affiche une
 pop-up d’information :
 
 <img
@@ -457,7 +457,7 @@ Les documents non reliés, constitués de feuilles, sont classés selon le sens 
 ### 2.1. Consignes pour le stockage et la lecture des fichiers
 
 - Les fichiers sont livrés sur un serveur sFTP et livrés par le pôle F&D sur la plateforme NumaHOP.
-- Le contrôle qualité s'effectue directement sur NumaHop avec votre profil.
+- Le contrôle qualité s'effectue directement sur NumaHOP avec votre profil.
 - La liste des documents à contrôler se trouve dans les Actions du tableau de bord, dans la fenêtre "Documents à contrôler ou en cours de contrôle" ([https://app.numahop.fr/#/login](https://app.numahop.fr/#/login)) ou en cliquant sur l’onglet "Contrôles".
 
 ---
@@ -496,7 +496,7 @@ Chaque erreur constatée sur une image doit être enregistrée au moyen du menu 
 
 Chaque document doit disposer d’une table de correspondance folios/vues ou d’une table des matières simplifiée lors de la livraison. Le type de table attendu pour chaque document est indiqué sur le tableur.
 
-La vérification des tables de correspondance folios/vues se fait directement sur NumaHop en regardant si les folios indiqués correspondent bien sur l’ensemble du document. Pour les tables des matières simplifiées, vérifier systématiquement que l’indication du début de chaque composant du document est bien mentionnée au bon folio/vue dans la table des matières.
+La vérification des tables de correspondance folios/vues se fait directement sur NumaHOP en regardant si les folios indiqués correspondent bien sur l’ensemble du document. Pour les tables des matières simplifiées, vérifier systématiquement que l’indication du début de chaque composant du document est bien mentionnée au bon folio/vue dans la table des matières.
 
 ---
 
@@ -571,7 +571,7 @@ Les pages sont identifiées de la façon suivante :
 
 À la fin du contrôle de la dernière vue du document, une icône apparaît. Celle-ci permet de mettre fin au contrôle en validant ou rejetant le document.
 
-NumaHop prend en compte le nombre d’erreurs signalées lors du contrôle du document en fonction du seuil toléré renseigné dans les paramétrages. Lorsque le seuil est atteint durant le contrôle, une alerte apparaît pour le signaler au contrôleur.
+NumaHOP prend en compte le nombre d’erreurs signalées lors du contrôle du document en fonction du seuil toléré renseigné dans les paramétrages. Lorsque le seuil est atteint durant le contrôle, une alerte apparaît pour le signaler au contrôleur.
 
 Différents messages de confirmation peuvent apparaître au moment de terminer le contrôle du document, tenant compte du nombre d’erreurs signalées :
 - **Validation du document** : Aucune erreur n’a été reportée sur le document.

@@ -1,17 +1,17 @@
 ---
-title: Interface de NumaHop
-sidebar_label: Interface de NumaHop
+title: Interface de NumaHOP
+sidebar_label: Interface de NumaHOP
 sidebar_position: 1
 description: Aperçu d'ensemble du logiciel
 ---
 
 import Icon from '@site/src/components/Icon';
 
-# <Icon icon={["fa", "display"]} /> Interface de NumaHop
+# <Icon icon={["fa", "display"]} /> Interface de NumaHOP
 
 ## Pré-requis techniques
 
-NumaHop est certifié pour fonctionner sur les navigateurs Web suivants :
+NumaHOP est certifié pour fonctionner sur les navigateurs Web suivants :
 
 - **Google Chrome**, version 50 et supérieures ;
 - **Mozilla Firefox**, version 47 et supérieures ;
@@ -51,7 +51,7 @@ Le **menu lateral** permet d’accéder aux libellés complets des menus et sous
 | Menus / Modules                                          | Description                                                          | _Voir aussi_ |
 | :------------------------------------------------------- | -------------------------------------------------------------------- | -----------: |
 | <Icon icon={["fa", "lines-leaning"]} /> **Documents**             | Gestion des Unités documentaires, Notices, Constats d'état, Imports. |              |
-| <Icon icon={["fa", "magnifying-glass"]} /> **Recherche** | Recherche avancée dans l'instance NumaHop                                    |              |
+| <Icon icon={["fa", "magnifying-glass"]} /> **Recherche** | Recherche avancée dans l'instance NumaHOP                                    |              |
 | <Icon icon={["fa", "user"]} /> **Utilisateurs**          | Gestion des Bibliothèques, Profils, Utilisateurs                     |              |
 | <Icon icon={["fa", "book"]} /> **Projets**               | Gestion des Projets, Lots, Trains, Livraisons                        |              |
 | <Icon icon={["fa", "square-check"]} /> **Contrôles**     | Contrôle des documents numériques                                    |              |
@@ -59,9 +59,9 @@ Le **menu lateral** permet d’accéder aux libellés complets des menus et sous
 | <Icon icon={["fa", "gear"]} /> **Administration**        | Parametrage des configurations                                       |              |
 | <Icon icon={["fa", "circle-question"]} /> **Aide**       | _Module inactif_                                                     |              |
 
-### Informations NumaHop
+### Informations NumaHOP
 
-NumaHOP propose sur l’ensemble de ses interfaces une colonne **Informations** dépliable sur la droite de chaque interface. Elle correspond à la zone de communication entre NumaHop et l'utilisateur : tous les messages émis par la plateforme s’y afficheront.
+NumaHOP propose sur l’ensemble de ses interfaces une colonne **Informations** dépliable sur la droite de chaque interface. Elle correspond à la zone de communication entre NumaHOP et l'utilisateur : tous les messages émis par la plateforme s’y afficheront.
 
 La gestion des messages applicatifs a été conçue pour interpeller immédiatement et visuellement l'utilisateur avec une apparition d'un message associé à un code couleur par niveau d’alerte, et un positionnement différent dans la colonne d’information.
 

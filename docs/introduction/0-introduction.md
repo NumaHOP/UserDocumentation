@@ -1,6 +1,6 @@
 ---
-title: Introduction à NumaHop
-sidebar_label: Introduction à NumaHop
+title: Introduction à NumaHOP
+sidebar_label: Introduction à NumaHOP
 sidebar_position: 0
 description: Aperçu d'ensemble du logiciel
 ---

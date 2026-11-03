@@ -234,7 +234,7 @@ d’enregistrer le fichier sous l’extension .CSV
 
 Pour les propriétés Dublin Core définis dans Types de propriété
 personnalisés (dans l’administration  
-NumaHop), le nom de la colonne doit être
+NumaHOP), le nom de la colonne doit être
 « dc:nom\_de\_la\_propriete\_dc », par exemple dc:title, dc:coverage,  
 dc:publisher etc.  
 Pour les propriétés hors Dublin Core, comme le PGCN Id, le radical, le
@@ -275,7 +275,7 @@ Zone Import :
 Projet : nom du projet
 
 Si la vérification des unités documentaires ou la recherche de doublons
-a été activé, NumaHop effectue alors  
+a été activé, NumaHOP effectue alors  
 un pré-import. A la fin du pré-import, l’utilisateur peut visualiser les
 erreurs éventuelles, les doublons  
 trouvés. L’import est au statut Validation utilisateur, à ce stade es

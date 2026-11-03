@@ -8,7 +8,7 @@ description: Exporter des notices biblographiques depuis ALMA
 import Icon from '@site/src/components/Icon';
 
 :::info Objectif
-Cette démarche permet d'obtenir des notices bibliographiques avec **données de fonds** et **d'exemplaire** dans un fichier au **format MARC-XML**, compatible avec NumaHop.
+Cette démarche permet d'obtenir des notices bibliographiques avec **données de fonds** et **d'exemplaire** dans un fichier au **format MARC-XML**, compatible avec NumaHOP.
 :::
 
 :::warning Droits
@@ -51,9 +51,9 @@ Lorsque le traitement a été effectué, ALMA affiche une info bulle **Traitemen
 ### Cas particulier : multi-volumes et périodiques
 
 :::info Multi-volumes et périodiques
-Les multivolumes et périodiques ont la particularité de **regrouper plusieurs documents physiques sous une seule et même notice bibliographique**, entraînant des complications lors de la création d'unités documentaires distinctes dans NumaHop. Cette procédure permet d'exporter des notices exemplarisées directement depuis ALMA.
+Les multivolumes et périodiques ont la particularité de **regrouper plusieurs documents physiques sous une seule et même notice bibliographique**, entraînant des complications lors de la création d'unités documentaires distinctes dans NumaHOP. Cette procédure permet d'exporter des notices exemplarisées directement depuis ALMA.
 
-Une autre approche consiste à dupliquer et modifier des unités documentaires directement dans NumaHop.
+Une autre approche consiste à dupliquer et modifier des unités documentaires directement dans NumaHOP.
 :::
 
 :::warning
@@ -68,11 +68,11 @@ Dans la boîte de dialogue **Publier à nouveau**, sous **Mode de publication**,
 
 Le fichier généré est enregistré sur le serveur SFTP ALMA de 'linstance.
 
-Un profil de publication spécifique **NumaHop** edoit être paramétré et éditer le cas échéant depuis l'onglet **Enrichissement de données**, puis dans les encarts **Enrichissement des exemplaires physique**.
+Un profil de publication spécifique **NumaHOP** edoit être paramétré et éditer le cas échéant depuis l'onglet **Enrichissement de données**, puis dans les encarts **Enrichissement des exemplaires physique**.
 
 
-## Chargement dans NumaHop
+## Chargement dans NumaHOP
 
-Le fichier `.xml` peut être chargé dans NumaHop en suivant la [procédure d'import des notice simples](docs/utilisateur/5_Imports/1-notices-simples.md)
+Le fichier `.xml` peut être chargé dans NumaHOP en suivant la [procédure d'import des notice simples](docs/utilisateur/5_Imports/1-notices-simples.md)
 
 

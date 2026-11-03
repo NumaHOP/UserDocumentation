@@ -55,10 +55,10 @@ Notre intervention a suscité un vif intérêt, notamment de la part de Persée,
 Plusieurs opportunités ont émergé lors de ces journées :
 - Financements UNESCO : des financements pourraient être disponibles pour des activités similaires à celles de NumaHOP. Une piste à creuser !
 - Collaboration avec l’Institut de l'Information Scientifique et Technique (INIST), qui déploie déjà des solutions Omeka pour les établissements, une collaboration pourrait être envisagée.
-- La "souveraineté" : un mot clé dans les appels à projets actuels, à intégrer dans les prochaines candidatures en faveur de NumaHop.
+- La "souveraineté" : un mot clé dans les appels à projets actuels, à intégrer dans les prochaines candidatures en faveur de NumaHOP.
 
 ### Conclusion
 
 Les JDEV 2026 ont été une expérience enrichissante pour NumaHOP, avec des retours positifs, des pistes de financement et des opportunités de collaboration. Ces journées ont aussi confirmé l’importance de moderniser notre outil pour répondre aux besoins croissants de la communauté.
 
-![NumaHop aux DEV 2026](/img/visuels/jdev-montpellier.jpeg)
+![NumaHOP aux DEV 2026](/img/visuels/jdev-montpellier.jpeg)

@@ -9,32 +9,32 @@ import { faExternalLinkAlt, faBook, faLock, faUsers, faCode, faRss } from '@fort
 // Données pour les cartes de fonctionnalités
 const features = [
   {
-    title: 'Documentation',
-    icon: faBook,
-    description: 'Une documentation complète et détaillée, destinée aux administrateurs et utilisateurs autant qu\'aux prestataires de numérisation.',
-    link: '/docs/introduction',
-    linkTitle: 'La documentation',
-  },
-  {
     title: 'Logiciel libre',
     icon: faCode,
-    description: 'NumaHop est un logiciel libre développé pour trois institutions publiques, dont le code source est aujourd\'hui disponible sur GitHub (licence AGPL-3.0).',
+    description: 'NumaHOP est un logiciel libre développé pour trois institutions publiques, dont le code source et sa documentation sont aujourd\'hui disponible sur GitHub (AGPL-3.0).',
     link: 'https://github.com/NumaHOP/',
     linkTitle: 'Le code source',
   },
   {
     title: 'Communauté',
     icon: faUsers,
-    description: 'Soutien actif du logiciel, l\'association assure le partage et l\'échange autour de NumaHop, en menant des actions de formation et de développement ',
+    description: 'Soutien actif du logiciel, l\'association assure le partage et l\'échange autour de NumaHOP, en menant des actions de formation et de développement.',
     link: '/communaute',
     linkTitle: 'L\'association',
   },
     {
     title: '@NumaWork',
     icon: faRss,
-    description: 'Suivez l\'actualité de NumaHop : évolutions du logiciel, développements en cours, journées professionnelles et ateliers.  ',
+    description: 'Suivez l\'actualité de NumaHOP : évolutions du logiciel, développements en cours, journées professionnelles et ateliers.  ',
     link: '/blog',
     linkTitle: 'Les actualités',
+  },
+    {
+    title: 'Documentation',
+    icon: faBook,
+    description: 'Une documentation complète et détaillée, destinée aux administrateurs et utilisateurs autant qu\'aux prestataires de numérisation.',
+    link: '/docs/introduction',
+    linkTitle: 'La documentation',
   },
   {
     title: 'Bac à sable',
@@ -73,7 +73,7 @@ function HomepageHeader() {
         <div className={styles.heroContent}>
           <img
             src="img/numahop-logo.png"
-            alt="Logo NumaHop"
+            alt="Logo NumaHOP"
             className={styles.logo}
           />
           <p className={styles.tagline}>

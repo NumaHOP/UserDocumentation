@@ -11,7 +11,7 @@ import Icon from '@site/src/components/Icon';
 
 Les _mappings_ sont des **fichiers de configuration des correspondances** entre et les notices bibliographiques issues des systèmes d'information documentaire (SIGB) et de systèmes d'information archivistique (SIA) et les unités documentaires de l'application Numahop.
 
-Ils sont employés au moment de l’**import de notices** dans l’application NumaHop, et permettent leur conversion vers le standard interopérable **Dublin Core**.
+Ils sont employés au moment de l’**import de notices** dans l’application NumaHOP, et permettent leur conversion vers le standard interopérable **Dublin Core**.
 
 Trois types de mappings sont proposés :
 - Mapping des **notices MARC**, à partir de fichiers XML-MARC, JSON-MARC, ou ISO-2709 ;
@@ -74,8 +74,8 @@ Les _mappings_ à importer doivent être dans un format `json` valide, et ne con
 [**Configuration des propriétés personalisées**](/docs/administrateur/Configurations/proprietes) <Icon icon={["fa", "arrow-up-right-from-square"]} />.
 :::
 
-:::tip Communauté NumaHop
-Sollicitez les membres de la communauté NumaHop pour le partage des _mappings_ au format `json` !
+:::tip Communauté NumaHOP
+Sollicitez les membres de la communauté NumaHOP pour le partage des _mappings_ au format `json` !
 :::
 
 ### Exporter un _mapping_
@@ -98,15 +98,15 @@ La création ou l'édition d'une règle de _mapping_ s'effectue depuis une boît
 | --- | --- | --- | --- |
 | **Champs** | Propriétée Dublin Core, de l'Unité documentaire ou de la notice bibliographique à laquelle la règne doit s'appliquer.  |  | 🔴 Obligatoire |
 | _Dublin Core_ | Propriété Dublin Core dans laquelle envoyer la métadonnée documentaire, à choisir parmi les types de propriétés par défaut, ou préalablement renségnées dans le sous-menu **Types de propriété personaliés**. | dc:title, dc:creator | 🔵 Facultatif |
-| _Unité documentaire_ | Champ de l'unité documentaire NumaHop dans laquelle envoyer la donnée, à choisir dans une liste fermée non éditable. | PGCN Id, Libellé, Type, Droits | 🔵 Facultatif |
-| _Notice bibliographique_ | Champ de la notice bibliographique NumaHop dans laquelle envoyer la donnée, à choisir dans une liste fermée non éditable. | Titre de la notice, SIGB, SUDOC, Calames, Document électronique | 🔵 Facultatif |
+| _Unité documentaire_ | Champ de l'unité documentaire NumaHOP dans laquelle envoyer la donnée, à choisir dans une liste fermée non éditable. | PGCN Id, Libellé, Type, Droits | 🔵 Facultatif |
+| _Notice bibliographique_ | Champ de la notice bibliographique NumaHOP dans laquelle envoyer la donnée, à choisir dans une liste fermée non éditable. | Titre de la notice, SIGB, SUDOC, Calames, Document électronique | 🔵 Facultatif |
 | _Règle par défaut_ | Indique si cette règle est appliquée par défaut. | Case à cocher | 🔴 Obligatoire |
 | **Règle** | Formule `Groovy` de la règle à appliquer | `` | 🔴 Obligatoire |
 | <Icon icon={["fa", "gear"]} /> _Initialisation de la règle_ | Description de la règle à appliquer (transformation, validation, etc.). | Capitaliser le titre | 🔵 Facultatif |
 | **Condition d'application** | Condition spécifique pour déclencher l'application de la règle. | Si le champ est vide, Si la date > 2020 | 🔵 Facultatif |
 | <Icon icon={["fa", "gear"]} /> _Initialisation de la condition_ | Description de la règle à appliquer (transformation, validation, etc.). | Capitaliser le titre | 🔵 Facultatif |
 
-L’ordre des règles est celle de leur prise en compte lors de l'import dans NumaHop, et peut être modifié à l’aide des flèches <Icon icon={["fa", "angle-down"]} /> et <Icon icon={["fa", "angle-up"]} /> situées à gauche de chaque règle de _mapping_.
+L’ordre des règles est celle de leur prise en compte lors de l'import dans NumaHOP, et peut être modifié à l’aide des flèches <Icon icon={["fa", "angle-down"]} /> et <Icon icon={["fa", "angle-up"]} /> situées à gauche de chaque règle de _mapping_.
 
 
 ### Syntaxe des expressions
