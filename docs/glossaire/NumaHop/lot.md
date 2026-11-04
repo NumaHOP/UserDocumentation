@@ -12,4 +12,4 @@ unités documentaires d’un projet.
 
 Il est possible de créer des trains associés aux projets et d’y associer
 des documents physiques. Les documents physiques doivent correspondre à
-des unités documentaires déjà rattachées au projet concerné. 
+des unités documentaires déjà rattachées au projet concerné.
