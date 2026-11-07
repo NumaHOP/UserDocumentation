@@ -18,6 +18,9 @@ const config = {
   organizationName: 'NumaHOP',
   projectName: 'UserDocumentation',
 
+  // Configuration pour GitHub Pages - trailingSlash recommandé
+  trailingSlash: true,
+
   // Gestion des liens brisés
   onBrokenLinks: 'throw',
 
