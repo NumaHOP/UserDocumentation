@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkUserDocumentation=globalThis.webpackChunkUserDocumentation||[]).push([[1738],{31370(e){e.exports=JSON.parse('{"metadata":{"permalink":"/UserDocumentation/en/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":12,"nextPage":"/UserDocumentation/en/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
