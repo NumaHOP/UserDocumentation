@@ -72,7 +72,7 @@ function HomepageHeader() {
       <div className={styles.container}>
         <div className={styles.heroContent}>
           <img
-            src="img/numahop-logo.png"
+            src="/img/numahop-logo.png"
             alt="Logo NumaHOP"
             className={styles.logo}
           />

@@ -161,9 +161,9 @@ const PresentationPage = () => {
 
           </div>
           <div className={styles.heroImage}>
-            <img src="img/numahop-schema.jpg" alt="Schema NumaHOP" />
+            <img src="/img/numahop-schema.jpg" alt="Schema NumaHOP" />
             <a
-              href="img/numahop-poster.jpg"
+              href="/img/numahop-poster.jpg"
               download="numahop-poster.jpg"
               className={styles.downloadLink}
             >

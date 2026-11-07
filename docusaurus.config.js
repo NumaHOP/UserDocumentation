@@ -8,11 +8,11 @@ const config = {
   // Champs obligatoires
   title: 'NumaHOP',
   tagline: 'Logiciel open source de gestion de collections numérisées porté par une communauté active.',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
 
   // Configuration pour GitHub Pages
-  url: 'https://numahop.github.io',
-  baseUrl: '/UserDocumentation/',
+  url: 'https://numahop.github.io/',
+  baseUrl: '/',
 
   // Organisation et nom du projet
   organizationName: 'NumaHOP',
@@ -74,7 +74,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Image pour les réseaux sociaux
-      image: 'img/logo.png',
+      image: '/img/logo.png',
 
       lastUpdate: {
         text: 'Dernière mise à jour le {date} par {author}',
@@ -91,7 +91,7 @@ const config = {
         title: 'NumaHOP',
         logo: {
           alt: 'Logo NumaHOP',
-          src: 'img/logo.svg',
+          src: '/img/logo.svg',
         },
         items: [
           {

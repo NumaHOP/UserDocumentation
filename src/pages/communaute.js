@@ -10,20 +10,20 @@ const membres = [
   {
     nom: 'Bibliothèque Sainte Geneviève',
     ville: 'Paris',
-    logo: 'img/logos/bsg-logo.png',
+    logo: '/img/logos/bsg-logo.png',
     siteInternet: 'https://www.bsg.univ-paris3.fr/iguana/www.main.cls',
     bibliothequeNumerique: 'https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/accueil',
   },
   {
     nom: 'Sciences Po Paris',
     ville: 'Paris',
-    logo: 'img/logos/sciencespo-logo.png',
+    logo: '/img/logos/sciencespo-logo.png',
     siteInternet: 'hhttps://www.sciencespo.fr/fr/',
     bibliothequeNumerique: 'https://bibnum.sciencespo.fr/s/catalogue/page/accueil',
   },
   {
     nom: 'Bibliothèque universitaire des langues et civilisations',
-    logo: 'img/logos/bulac-logo.png',
+    logo: '/img/logos/bulac-logo.png',
     ville: 'Paris',
     siteInternet: 'https://www.bulac.fr/',
     bibliothequeNumerique: 'https://bina.bulac.fr/s/bina/page/welcome',
@@ -31,99 +31,99 @@ const membres = [
   {
     nom: 'Université Paris Saclay',
     ville: 'Orsay',
-    logo: 'img/logos/saclay-logo.png',
+    logo: '/img/logos/saclay-logo.png',
     siteInternet: 'https://www.universite-paris-saclay.fr/',
     bibliothequeNumerique: 'https://numaclay.universite-paris-saclay.fr/s/numaclay/page/accueil',
   },
   {
     nom: 'Ecole Normale Supérieure de Paris',
     ville: 'Paris',
-    logo: 'img/logos/ens-logo.png',
+    logo: '/img/logos/ens-logo.png',
     siteInternet: 'https://www.ens.psl.eu/',
     bibliothequeNumerique: 'https://lucienne.ens.psl.eu/s/lucienne/page/welcome',
   },
   {
     nom: 'Humathèque Condorcet',
     ville: 'Aubervilliers',
-    logo: 'img/logos/condorcet-logo.png',
+    logo: '/img/logos/condorcet-logo.png',
     siteInternet: 'https://www.humatheque-condorcet.fr/',
     bibliothequeNumerique: 'https://bibnum.campus-condorcet.fr/s/bibnum/page/accueil',
   },
   {
     nom: 'Sorbonne Université',
     ville: 'Paris',
-    logo: 'img/logos/sorbonneuniversite-logo.png',
+    logo: '/img/logos/sorbonneuniversite-logo.png',
     siteInternet: 'https://www.sorbonne-universite.fr/',
     bibliothequeNumerique: 'https://patrimoine.sorbonne-universite.fr/',
   },
   {
     nom: 'Bibliothèque nationale de France',
     ville: 'Paris',
-    logo: 'img/logos/bnf-logo.png',
+    logo: '/img/logos/bnf-logo.png',
     siteInternet: 'https://www.bnf.fr/fr',
     bibliothequeNumerique: 'https://gallica.bnf.fr/accueil/fr/html/accueil-fr',
   },
   /*{
     nom: 'Museum national d\'histoire naturelle',
     ville: 'Paris',
-    logo: 'img/logos/mnhn-logo.png',
+    logo: '/img/logos/mnhn-logo.png',
     siteInternet: 'https://www.mnhn.fr/fr/bibliotheques-du-museum',
   },*/
   {
     nom: 'Université Claude Bernard Lyon I',
     ville: 'Lyon',
-    logo: 'img/logos/lyon1-logo.png',
+    logo: '/img/logos/lyon1-logo.png',
     siteInternet: 'https://www.univ-lyon1.fr/',
   },
   {
     nom: 'Médiathèque Simonne Veil',
     ville: 'Valenciennes',
-    logo: 'img/logos/simoneveil-logo.png',
+    logo: '/img/logos/simoneveil-logo.png',
     siteInternet: 'https://mediatheques.agglo-pvm.fr/vos-mediatheques/mediatheque-simone-veil',
   },
   {
     nom: 'Institut national d\'histoire de l\'art',
     ville: 'Paris',
-    logo: 'img/logos/inha-logo.png',
+    logo: '/img/logos/inha-logo.png',
     siteInternet: 'https://www.inha.fr/',
     bibliothequeNumerique: 'https://bibliotheque-numerique.inha.fr/',
   },
   {
     nom: 'Archives d\'Alsace',
     ville: 'Strasbourg',
-    logo: 'img/logos/archivesalsace-logo.png',
+    logo: '/img/logos/archivesalsace-logo.png',
     siteInternet: 'https://archives.alsace.eu/',
   },
   {
     nom: 'Centre d\'études supérieures de la Renaissance',
     ville: 'Tours',
-    logo: 'img/logos/cesr-logo.png',
+    logo: '/img/logos/cesr-logo.png',
     siteInternet: 'https://cesr.univ-tours.fr/',
   },
   /*{
     nom: 'Bibliothèque interuniversitaire de la Sorbonne',
     ville: 'Paris',
-    logo: 'img/logos/bis-logo.png',
+    logo: '/img/logos/bis-logo.png',
     siteInternet: 'https://www.bis-sorbonne.fr/',
     bibliothequeNumerique: 'https://nubis.bis-sorbonne.fr/',
   },*/
   {
     nom: 'Musée du Quai Branly',
     ville: 'Paris',
-    logo: 'img/logos/mqb-logo.png',
+    logo: '/img/logos/mqb-logo.png',
     siteInternet: 'https://www.quaibranly.fr/fr/',
   },
     {
     nom: 'Musée du Louvre',
     ville: 'Paris',
-    logo: 'img/logos/louvre-logo.png',
+    logo: '/img/logos/louvre-logo.png',
     siteInternet: 'https://www.louvre.fr/',
     bibliothequeNumerique: 'https://collections.louvre.fr/'
   },
     {
     nom: 'Musée d\'Orsay',
     ville: 'Paris',
-    logo: 'img/logos/orsay-logo.png',
+    logo: '/img/logos/orsay-logo.png',
     siteInternet: 'https://www.musee-orsay.fr/fr',
   }
 ];
@@ -135,8 +135,8 @@ const prestataires = [
     etablissement: 'Rueil-Malmaison',
     siteInternet: 'https://www.tech-advantage.com/',
     citation: "Tech’Advantage a accompagné le développement initial de NumaHOP, en capitalisant sur son expertise historique en solutions numériques pour les bibliothèques et les institutions culturelles, héritée de Progilone.",
-    photo: 'img/photos/techadvantage.jpg',
-    logo: 'img/logos/techadvantage-logo.png',
+    photo: '/img/photos/techadvantage.jpg',
+    logo: '/img/logos/techadvantage-logo.png',
     description: "Prestataire historique, Tech’Advantage a joué un rôle clé dans la conception et le déploiement de NumaHOP, en s’appuyant sur son héritage technique et son expérience de plus de 30 ans dans le numérique scientifique et culturel."
   },
   {
@@ -144,8 +144,8 @@ const prestataires = [
     etablissement: 'Marseille',
     siteInternet: 'https://www.biblibre.com/fr/',
     citation: "BibLibre contribue activement à Numahop en publiant et en maintenant le code source, renforçant ainsi son engagement pour des solutions libres et ouvertes au service des bibliothèques.",
-    photo: 'img/photos/biblibre.jpg',
-    logo: 'img/logos/biblibre-logo.png',
+    photo: '/img/photos/biblibre.jpg',
+    logo: '/img/logos/biblibre-logo.png',
     description: "Spécialiste des logiciels libres pour les bibliothèques, BibLibre a intégré Numahop à son offre pour proposer une solution clé en main, maintenue et adaptée aux besoins des institutions."
   },
   {
@@ -154,7 +154,7 @@ const prestataires = [
     siteInternet: 'https://sempiternelia.net/',
     citation: "Sempiternelia intègre Numahop à son catalogue de services pour les bibliothèques, en proposant une solution complète incluant développement, hébergement et formation, adaptée aux enjeux des humanités numériques.",
     photo: 'https://sempiternelia.net/wp-content/uploads/2020/09/logo-sempiternelia.png',
-    logo: 'img/logos/sempiternelia-logo.png',
+    logo: '/img/logos/sempiternelia-logo.png',
     description: "Avec une expertise reconnue en humanités numériques, Sempiternelia a enrichi son panel de produits avec Numahop, offrant ainsi aux bibliothèques une solution flexible et intégrée."
   },
 ];
@@ -193,7 +193,7 @@ const CommunautePage = () => {
           </div>
 
           <div className={styles.heroImage}>
-            <img src="img/numahop-schema.jpg" alt="Schema NumaHOP" />
+            <img src="/img/numahop-schema.jpg" alt="Schema NumaHOP" />
             <a
               href="#rejoindre"
               className={styles.downloadLink}
