@@ -12,7 +12,7 @@ const config = {
 
   // Configuration pour GitHub Pages
   url: 'https://numahop.github.io',
-  baseUrl: '/UserDocumentation/',
+  baseUrl: '/',
 
   // Organisation et nom du projet
   organizationName: 'NumaHOP',
