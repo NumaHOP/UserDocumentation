@@ -52,14 +52,14 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'deploy: ${{ github.sha }}'
 
-  notify-nhask:
-    needs: deploy
-    runs-on: ubuntu-latest
-    if: github.ref_name == 'main'
-    steps:
-      - name: Trigger NHASK pipeline
-        run: |
-          curl --fail --request POST \
-            --form token="${{ secrets.NHASK_TRIGGER_TOKEN }}" \
-            --form ref=main \
-            "https://gitlab.huma-num.fr/api/v4/projects/humatheque-condorcet%2Foutils-numeriques%2Fnhask/trigger/pipeline"
+  # notify-nhask:
+  #   needs: deploy
+  #   runs-on: ubuntu-latest
+  #   if: github.ref_name == 'main'
+  #   steps:
+  #     - name: Trigger NHASK pipeline
+  #       run: |
+  #         curl --fail --request POST \
+  #           --form token="${{ secrets.NHASK_TRIGGER_TOKEN }}" \
+  #           --form ref=main \
+  #           "https://gitlab.huma-num.fr/api/v4/projects/humatheque-condorcet%2Foutils-numeriques%2Fnhask/trigger/pipeline"
