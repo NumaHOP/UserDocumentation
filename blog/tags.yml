@@ -33,3 +33,9 @@ conf:
 
 bulac:
   label: Bibliothèque universitaire des langues et civilisations
+
+omeka:
+  label: Omeka
+
+formation:
+  label: Action de formation 
