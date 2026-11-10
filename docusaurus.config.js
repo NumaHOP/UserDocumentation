@@ -11,7 +11,7 @@ const config = {
   favicon: '/img/favicon.ico',
 
   // Configuration pour GitHub Pages
-  url: 'https://numahop.github.io',
+  url: 'https://numahop.github.io/',
   baseUrl: '/UserDocumentation/',
 
   // Organisation et nom du projet
