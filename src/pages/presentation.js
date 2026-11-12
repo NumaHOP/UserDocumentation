@@ -5,6 +5,7 @@ import styles from './presentation.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowsToCircle, faCog, faUsers, faFileExport, faSliders, faScrewdriverWrench, faCheckDouble, faVideo, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 const features = [
   {
@@ -161,9 +162,9 @@ const PresentationPage = () => {
 
           </div>
           <div className={styles.heroImage}>
-            <img src="/img/numahop-schema.jpg" alt="Schema NumaHOP" />
+            <img src={useBaseUrl('/img/numahop-schema.jpg')} alt="Schema NumaHOP" />
             <a
-              href="/img/numahop-poster.jpg"
+              href={useBaseUrl('/img/numahop-poster.jpg')}
               download="numahop-poster.jpg"
               className={styles.downloadLink}
             >

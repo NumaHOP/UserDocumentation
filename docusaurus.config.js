@@ -12,13 +12,13 @@ const config = {
 
   // Configuration pour GitHub Pages
   url: 'https://numahop.github.io',
-  baseUrl: '/',
+  baseUrl: '/UserDocumentation/',
 
   // Organisation et nom du projet
   organizationName: 'NumaHOP',
   projectName: 'UserDocumentation',
 
-  // Configuration pour GitHub Pages - trailingSlash recommandé
+  // Configuration pour GitHub Pages - trailingSlash activé
   trailingSlash: true,
 
   // Gestion des liens brisés

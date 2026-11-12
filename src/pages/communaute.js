@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import styles from './communaute.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUsers, faUniversity, faSchool, faBuilding, faQuoteLeft, faHandshake, faEnvelope, faGlobe, faBook, faScrewdriverWrench, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 // Liste des établissements membres
 const membres = [
@@ -188,12 +189,12 @@ const CommunautePage = () => {
               coordonner ces actions à l'échelle nationale et internationale,
               avec pour objectif d'assurer l'évolution du logiciel, et sa
               promotion aurpès des professionnels du secteur.</p>
-            <a href="/UserDocumentation/statuts">Les statuts de l'association NumaHOP <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
+            <a href="/statuts">Les statuts de l'association NumaHOP <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
 
           </div>
 
           <div className={styles.heroImage}>
-            <img src="/img/numahop-schema.jpg" alt="Schema NumaHOP" />
+            <img src={useBaseUrl('/img/numahop-schema.jpg')} alt="Schema NumaHOP" />
             <a
               href="#rejoindre"
               className={styles.downloadLink}
@@ -231,7 +232,7 @@ const CommunautePage = () => {
             {membres.map((membre, index) => (
               <div key={index} className={styles.membreCard}>
                 <div className={styles.membreLogo}>
-                  <img src={membre.logo} alt={`Logo ${membre.nom}`} />
+                  <img src={useBaseUrl(membre.logo)} alt={`Logo ${membre.nom}`} />
                 </div>
                 <h3 className={styles.membreNom}>{membre.nom}</h3>
                 <p>{membre.ville}</p>
@@ -265,7 +266,7 @@ const CommunautePage = () => {
                 <div className={styles.prestataireLogoContainer}>
                   <a href={prestataire.siteInternet} target="_blank" rel="noopener noreferrer">
                     <img
-                      src={prestataire.logo}
+                      src={useBaseUrl(prestataire.logo)}
                       alt={`Logo ${prestataire.auteur}`}
                       className={styles.prestataireLogo}
                     />

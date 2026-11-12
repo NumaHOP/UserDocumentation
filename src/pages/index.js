@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt, faBook, faLock, faUsers, faCode, faRss } from '@fortawesome/free-solid-svg-icons';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 // Données pour les cartes de fonctionnalités
 const features = [
@@ -72,7 +73,7 @@ function HomepageHeader() {
       <div className={styles.container}>
         <div className={styles.heroContent}>
           <img
-            src="/img/numahop-logo.png"
+            src={useBaseUrl('/img/numahop-logo.png')}
             alt="Logo NumaHOP"
             className={styles.logo}
           />
