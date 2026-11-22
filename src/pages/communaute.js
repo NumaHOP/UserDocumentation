@@ -279,6 +279,11 @@ const CommunautePage = () => {
                     <FontAwesomeIcon icon={faQuoteLeft} className={styles.quoteIcon} />
                     <p className={styles.prestataireCitation}>{prestataire.citation}</p>
                   </div>
+                  <div className={styles.membreLinks}>
+                    <a href={prestataire.siteInternet} target="_blank" rel="noopener noreferrer" className={styles.tag}>
+                      <FontAwesomeIcon icon={faGlobe} /> Site internet
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
