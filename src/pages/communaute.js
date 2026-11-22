@@ -9,18 +9,24 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 // Liste des établissements membres
 const membres = [
   {
+    nom: 'Archives d\'Alsace',
+    ville: 'Strasbourg',
+    logo: '/img/logos/archivesalsace-logo.png',
+    siteInternet: 'https://archives.alsace.eu/',
+  },
+  {
+    nom: 'Bibliothèque nationale de France',
+    ville: 'Paris',
+    logo: '/img/logos/bnf-logo.png',
+    siteInternet: 'https://www.bnf.fr/fr',
+    bibliothequeNumerique: 'https://gallica.bnf.fr/accueil/fr/html/accueil-fr',
+  },
+  {
     nom: 'Bibliothèque Sainte Geneviève',
     ville: 'Paris',
     logo: '/img/logos/bsg-logo.png',
     siteInternet: 'https://www.bsg.univ-paris3.fr/iguana/www.main.cls',
     bibliothequeNumerique: 'https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/accueil',
-  },
-  {
-    nom: 'Sciences Po Paris',
-    ville: 'Paris',
-    logo: '/img/logos/sciencespo-logo.png',
-    siteInternet: 'hhttps://www.sciencespo.fr/fr/',
-    bibliothequeNumerique: 'https://bibnum.sciencespo.fr/s/catalogue/page/accueil',
   },
   {
     nom: 'Bibliothèque universitaire des langues et civilisations',
@@ -30,11 +36,10 @@ const membres = [
     bibliothequeNumerique: 'https://bina.bulac.fr/s/bina/page/welcome',
   },
   {
-    nom: 'Université Paris Saclay',
-    ville: 'Orsay',
-    logo: '/img/logos/saclay-logo.png',
-    siteInternet: 'https://www.universite-paris-saclay.fr/',
-    bibliothequeNumerique: 'https://numaclay.universite-paris-saclay.fr/s/numaclay/page/accueil',
+    nom: 'Centre d\'études supérieures de la Renaissance',
+    ville: 'Tours',
+    logo: '/img/logos/cesr-logo.png',
+    siteInternet: 'https://cesr.univ-tours.fr/',
   },
   {
     nom: 'Ecole Normale Supérieure de Paris',
@@ -48,39 +53,7 @@ const membres = [
     ville: 'Aubervilliers',
     logo: '/img/logos/condorcet-logo.png',
     siteInternet: 'https://www.humatheque-condorcet.fr/',
-    bibliothequeNumerique: 'https://bibnum.campus-condorcet.fr/s/bibnum/page/accueil',
-  },
-  {
-    nom: 'Sorbonne Université',
-    ville: 'Paris',
-    logo: '/img/logos/sorbonneuniversite-logo.png',
-    siteInternet: 'https://www.sorbonne-universite.fr/',
-    bibliothequeNumerique: 'https://patrimoine.sorbonne-universite.fr/',
-  },
-  {
-    nom: 'Bibliothèque nationale de France',
-    ville: 'Paris',
-    logo: '/img/logos/bnf-logo.png',
-    siteInternet: 'https://www.bnf.fr/fr',
-    bibliothequeNumerique: 'https://gallica.bnf.fr/accueil/fr/html/accueil-fr',
-  },
-  /*{
-    nom: 'Museum national d\'histoire naturelle',
-    ville: 'Paris',
-    logo: '/img/logos/mnhn-logo.png',
-    siteInternet: 'https://www.mnhn.fr/fr/bibliotheques-du-museum',
-  },*/
-  /*{
-    nom: 'Université Claude Bernard Lyon I',
-    ville: 'Lyon',
-    logo: '/img/logos/lyon1-logo.png',
-    siteInternet: 'https://www.univ-lyon1.fr/',
-  },*/
-  {
-    nom: 'Médiathèque Simonne Veil',
-    ville: 'Valenciennes',
-    logo: '/img/logos/simoneveil-logo.png',
-    siteInternet: 'https://mediatheques.agglo-pvm.fr/vos-mediatheques/mediatheque-simone-veil',
+    bibliothequeNumerique: 'https://bibnum.campus-condorcet.fr/s/condornum/page/accueil',
   },
   {
     nom: 'Institut national d\'histoire de l\'art',
@@ -90,29 +63,16 @@ const membres = [
     bibliothequeNumerique: 'https://bibliotheque-numerique.inha.fr/',
   },
   {
-    nom: 'Archives d\'Alsace',
-    ville: 'Strasbourg',
-    logo: '/img/logos/archivesalsace-logo.png',
-    siteInternet: 'https://archives.alsace.eu/',
+    nom: 'Médiathèque Simonne Veil',
+    ville: 'Valenciennes',
+    logo: '/img/logos/simoneveil-logo.png',
+    siteInternet: 'https://mediatheques.agglo-pvm.fr/vos-mediatheques/mediatheque-simone-veil',
   },
   {
-    nom: 'Centre d\'études supérieures de la Renaissance',
-    ville: 'Tours',
-    logo: '/img/logos/cesr-logo.png',
-    siteInternet: 'https://cesr.univ-tours.fr/',
-  },
-  /*{
-    nom: 'Bibliothèque interuniversitaire de la Sorbonne',
+    nom: 'Musée d\'Orsay',
     ville: 'Paris',
-    logo: '/img/logos/bis-logo.png',
-    siteInternet: 'https://www.bis-sorbonne.fr/',
-    bibliothequeNumerique: 'https://nubis.bis-sorbonne.fr/',
-  },*/
-  {
-    nom: 'Musée du Quai Branly',
-    ville: 'Paris',
-    logo: '/img/logos/mqb-logo.png',
-    siteInternet: 'https://www.quaibranly.fr/fr/',
+    logo: '/img/logos/orsay-logo.png',
+    siteInternet: 'https://www.musee-orsay.fr/fr',
   },
   {
     nom: 'Musée du Louvre',
@@ -122,11 +82,51 @@ const membres = [
     bibliothequeNumerique: 'https://collections.louvre.fr/'
   },
   {
-    nom: 'Musée d\'Orsay',
+    nom: 'Musée du Quai Branly',
     ville: 'Paris',
-    logo: '/img/logos/orsay-logo.png',
-    siteInternet: 'https://www.musee-orsay.fr/fr',
-  }
+    logo: '/img/logos/mqb-logo.png',
+    siteInternet: 'https://www.quaibranly.fr/fr/',
+  },
+  {
+    nom: 'Museum national d\'histoire naturelle',
+    ville: 'Paris',
+    logo: '/img/logos/mnhn-logo.png',
+    siteInternet: 'https://www.mnhn.fr/fr/bibliotheques-du-museum',
+  },
+  {
+    nom: 'Université Claude Bernard Lyon I',
+    ville: 'Lyon',
+    logo: '/img/logos/lyon1-logo.png',
+    siteInternet: 'https://www.univ-lyon1.fr/',
+  },
+  {
+    nom: 'Sciences Po Paris',
+    ville: 'Paris',
+    logo: '/img/logos/sciencespo-logo.png',
+    siteInternet: 'hhttps://www.sciencespo.fr/fr/',
+    bibliothequeNumerique: 'https://bibnum.sciencespo.fr/s/catalogue/page/accueil',
+  },
+  {
+    nom: 'Sorbonne Université',
+    ville: 'Paris',
+    logo: '/img/logos/sorbonneuniversite-logo.png',
+    siteInternet: 'https://www.sorbonne-universite.fr/',
+    bibliothequeNumerique: 'https://patrimoine.sorbonne-universite.fr/',
+  },
+  {
+    nom: 'Université Paris Saclay',
+    ville: 'Orsay',
+    logo: '/img/logos/saclay-logo.png',
+    siteInternet: 'https://www.universite-paris-saclay.fr/',
+    bibliothequeNumerique: 'https://numaclay.universite-paris-saclay.fr/s/numaclay/page/accueil',
+  },
+  /*{
+    nom: 'Bibliothèque interuniversitaire de la Sorbonne',
+    ville: 'Paris',
+    logo: '/img/logos/bis-logo.png',
+    siteInternet: 'https://www.bis-sorbonne.fr/',
+    bibliothequeNumerique: 'https://nubis.bis-sorbonne.fr/',
+  },*/
 ];
 
 // Prestataires
@@ -176,31 +176,31 @@ const CommunautePage = () => {
               gestion des contenus et de
               l’interopérabilité des données.
             </p>
-            <p>L'association œuvre à partager les pratiques et à
-              renforcer les dynamiques de mutualisation,
-              en menant des <strong>actions de communication, de formation, de
-                traduction, et de documentation</strong>, et porte les développements de nouvelles
-              fonctionnalités pour le logiciel libre.</p>
-            <p>Elle est composée de membres institutionnels
-              et de prestataires privés, tous engagés dans la
-              préservation et la valorisation du patrimoine culturel numérique.</p>
-            <p>Le Bureau de l'association, élu pour deux ans lors des assemblées générales,
-              se réuni régulièrement pour
-              coordonner ces actions à l'échelle nationale et internationale,
-              avec pour objectif d'assurer l'évolution du logiciel, et sa
-              promotion aurpès des professionnels du secteur.</p>
-            <a href="/UserDocumentation/statuts">Les statuts de l'association NumaHOP <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
-
           </div>
 
           <div className={styles.heroImage}>
-            <img src={useBaseUrl('/img/numahop-schema.jpg')} alt="Schema NumaHOP" />
+            <img src={useBaseUrl('/img/visuels/journees-2026-groupe.jpeg')} alt="Schema NumaHOP" />
             <a
               href="#rejoindre"
               className={styles.downloadLink}
             >
               Rejoindre & Contribuer
             </a>
+          </div>
+
+          <div className={styles.heroContent}>
+            <p>L'association œuvre à partager les pratiques et à
+              renforcer les dynamiques de mutualisation,
+              en menant des <strong>actions de communication, de formation, de
+                traduction, et de documentation</strong>, et porte les développements de nouvelles
+              fonctionnalités pour le logiciel libre. Elle est composée de membres institutionnels
+              et de prestataires privés, tous engagés dans la
+              préservation et la valorisation du patrimoine culturel numérique. Le Bureau de l'association, élu pour deux ans lors des assemblées générales,
+              se réuni régulièrement pour
+              coordonner ces actions à l'échelle nationale et internationale,
+              avec pour objectif d'assurer l'évolution du logiciel, et sa
+              promotion aurpès des professionnels du secteur.</p>
+            <a href="/UserDocumentation/statuts">Les statuts de l'association NumaHOP <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
           </div>
 
         </header>
@@ -225,7 +225,7 @@ const CommunautePage = () => {
         <section className={styles.membres}>
           <h2 className={styles.sectionTitle}>
             <FontAwesomeIcon icon={faUniversity} className={styles.sectionIcon} />
-            Établissements membres
+            Établissements utilisateurs
           </h2>
 
           <div className={styles.membresGrid}>

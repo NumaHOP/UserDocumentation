@@ -26,7 +26,7 @@ const features = [
     {
     title: '@NumaWork',
     icon: faRss,
-    description: 'Suivez l\'actualité de NumaHOP : évolutions du logiciel, développements en cours, journées professionnelles et ateliers.  ',
+    description: 'Suivez l\'actualité de NumaHOP : évolutions du logiciel, développements en cours, journées professionnelles, actions de formation et ateliers.  ',
     link: '/blog',
     linkTitle: 'Les actualités',
   },

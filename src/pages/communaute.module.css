@@ -26,15 +26,13 @@
 /* ===== Section héroïque ===== */
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   padding: 4rem 0;
   gap: 2rem;
 }
 
 .heroContent {
-  flex: 1;
-  max-width: 50%;
+  flex: none;
 }
 
 .heroTitle {
@@ -68,15 +66,16 @@
 }
 
 .heroImage {
-  flex: 1;
-  max-width: 50%;
+  width: 100%;
   text-align: center;
   position: relative;
   /* Ajout pour positionner le lien */
 }
 
 .heroImage img {
+  width: 100%;
   max-width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: var(--numahop-shadow);
 }
@@ -95,13 +94,11 @@
   opacity: 0;
   transition: opacity 0.2s ease;
   pointer-events: none;
-  /* Désactive les interactions quand invisible */
 }
 
 .heroImage:hover .downloadLink {
   opacity: 1;
   pointer-events: auto;
-  /* Réactive au survol */
   text-decoration: none;
 }
 
@@ -535,24 +532,9 @@
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
-
   .hero {
-    flex-direction: column;
-    /* Empile verticalement */
-    align-items: flex-start;
-    /* Aligne à gauche */
     gap: 1.5rem;
-    /* Espace entre les éléments */
   }
-
-  .heroContent,
-  .heroImage {
-    max-width: 100%;
-    /* Prend toute la largeur */
-    flex: none;
-    /* Désactive le flex: 1 */
-  }
-
 
   .associationContent,
   .rejoindreContent {
