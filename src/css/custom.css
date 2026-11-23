@@ -20,6 +20,8 @@
   /* Rose clair pour les éléments inactifs */
   --ifm-color-primary-lightest: #e0d0d3;
   /* Fond très clair */
+    --ifm-color-primary-background: #fafafa;
+  /* Fond très clair */
 
   /* Couleurs de texte et fond */
   --ifm-color-text-primary: #58585a;
@@ -92,16 +94,42 @@
 
 /* Navbar : Fond et bordure */
 .navbar {
-  background-color: var(--ifm-background-color);
-  border-bottom: 2px solid var(--ifm-color-primary-lightest);
+  background-color: var(--ifm-color-primary-background);
   padding: 0.5rem 1rem;
   /* Espacement interne pour éviter que les éléments touchent les bords */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* Compenser la hauteur fixe de la navbar */
+body {
+  padding-top: 3.5rem;
+}
+
+.navbar::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right,
+    var(--button-sample-color) 0%,
+    var(--button-sample-color) 33.33%,
+    var(--button-hover-color) 33.33%,
+    var(--button-hover-color) 66.66%,
+    var(--title-color) 66.66%,
+    var(--title-color) 100%);
 }
 
 /* Liens actifs dans la navbar */
 .navbar__link--active,
 .navbar__item--active>.navbar__link {
-  border-bottom: 3px solid var(--ifm-color-primary);
+  font-weight: bold;
+  border-bottom: none;
 }
 
 /* Éléments de la navbar (boutons, liens) */
