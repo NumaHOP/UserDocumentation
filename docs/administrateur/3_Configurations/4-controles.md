@@ -24,7 +24,7 @@ Le contrôle qualité dans NumaHop se fait grâce à la visionneuse embarquée. 
 ```mermaid
 flowchart TD
 
-A["Création du **Projet**, du **Lot** et import de sunités documentaires<br>Démarrage du workflow"] --> B1["Création des constats d'état"]
+A["Création du projet, du lot et import des unités documentaires<br>Démarrage du workflow"] --> B1["Création des constats d'état"]
 B1 --> C1["Création des constats d'état"]
 C1 --> D1["Validation des constats d'état"]
 D1 --> E1["Livraison des fichiers numérisés"]
