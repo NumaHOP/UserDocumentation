@@ -88,3 +88,11 @@ Si le contrôle n’a pas pour but de s’appliquer à tous les documents mais s
 - **Documents dans la livraison** : Le contrôle sera obligatoire pour une sélection de 40 documents.
 - **Pages dans chaque document** : Tous les documents seront à contrôler, mais pas dans leur intégralité ; seules 40% des pages seront affichées dans la visionneuse pour chacun d’entre eux.
 - **Pages dans tous les documents** : NumaHop sélectionne 40% des pages tous documents confondus. Si le lot fait 1000 pages, il faudra contrôler 400 pages, qui seront affichées dans la visionneuse les unes à la suite des autres, quelle que soit l’appartenance des pages à un document. Le choix des pages est aléatoire.
+
+### Les différents contrôles : activation et blocage
+NumaHOP liste  toute une série de contrôles automatisés: chacun de ces contrôles peut être activé ou non. 
+De la même manière, ces contrôles peuvent être, si actifs, bloquants ou non.
+
+Si un contrôle est activé et bloquant, NumaHop va rejeter la livraison d’un document non conforme, avant même que le contrôle qualité puisse s’effectuer.
+
+## Configurer les contrôles pour un lot
