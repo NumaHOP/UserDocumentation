@@ -7,8 +7,8 @@ description: Configuration des contrôles qualité
 
 import Icon from '@site/src/components/Icon';
 
-:::warning Page en cours de rédaction
-:::
+:::warning Page en cours de rédaction:::
+
 # <Icon icon={["fa", "file-lines"]} />Le contrôle qualité dans le <Icon icon={["fa", "chart-diagram"]} />workflow NumaHOP
 
 Le contrôle qualité intervient après livraison des fichiers par le prestataire. NumaHop effectue d’abord une série de contrôles automatisés en fonction du paramétrage effectué.
@@ -48,7 +48,7 @@ I1 --> E1["Livraison des fichiers numérisés"]
 
 Dans Numahop, les contrôles sont paramétrés dans le menu <Icon icon={["fa", "gear"]} />Administration, puis dans la section Contrôles .
 
-On va ensuite créer des configurations de contrôle types, par exemple selon le type de documents, et qui pourront ensuite être définies au niveau d'un <Icon icon={["fa", "book"]} />projet, voire d'un Icon icon={["fa", "boxes-stacked"]} />lot.
+On va ensuite créer des configurations de contrôle types, par exemple selon le type de documents, et qui pourront ensuite être définies au niveau d'un <Icon icon={["fa", "book"]} />projet, voire d'un <Icon icon={["fa", "boxes-stacked"]} />lot.
 
 Par exemple, un lot de manuscrits pourrait être contrôlé en intégralité avec un taux d’erreur majeure limité, tandis qu’un contrôle par échantillonnage pourrait être appliqué pour un lot de monographies imprimées. Tout dépend des choix de l’établissement.
 
