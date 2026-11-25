@@ -4,6 +4,7 @@ sidebar_label: Contrôles qualité
 sidebar_position: 4
 description: Configuration des contrôles qualité
 ---
+
 import Icon from '@site/src/components/Icon';
 
 # <Icon icon={["fa", "file-lines"]} />Le contrôle qualité dans le <Icon icon={["fa", "chart-diagram"]} />workflow NumaHOP
