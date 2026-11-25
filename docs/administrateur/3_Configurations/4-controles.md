@@ -17,8 +17,8 @@ Une fois les contrôles automatiques validés, les documents passent en attente 
 
 
 Le contrôle qualité dans NumaHop se fait grâce à la visionneuse embarquée. Selon les paramétrages choisis, il peut être :
-- Exhaustif (vérification de toutes les pages de tous les documents du lot)
-- Effectué par échantillonnage (un nombre de pages limité par document, un nombre de documents limité par lot ou un nombre de pages limité par lot). Le pourcentage d’échantillonnage est également indiqué dans les paramétrages.
+- **Exhaustif** (vérification de toutes les pages de tous les documents du lot)
+- **Effectué par échantillonnage** (un nombre de pages limité par document, un nombre de documents limité par lot ou un nombre de pages limité par lot). Le pourcentage d’échantillonnage est également indiqué dans les paramétrages.
 
 
 ```mermaid
