@@ -13,6 +13,7 @@ import Icon from '@site/src/components/Icon';
 :::
 
 Il est possible de rajouter, sous la forme d'un fichier (.txt ou .odt), des templates pour:
+
 -Des constats d'état
 -Des courriels spécifiques (réinitialisation du mot de passe, création d'un utilisateur)
 
