@@ -53,5 +53,27 @@ On va ensuite créer des configurations de contrôle types, par exemple selon le
 Par exemple, un lot de manuscrits pourrait être contrôlé en intégralité avec un taux d’erreur majeure limité, tandis qu’un contrôle par échantillonnage pourrait être appliqué pour un lot de monographies imprimées. Tout dépend des choix de l’établissement.
 
 
+##Les différents réglages possibles
 
+###Les taux d’erreurs
+
+C’est un pourcentage qu’il faut rentrer.
+
+Un pourcentage de 20% de taux d’erreurs majeures signifie que pour un document de 10 pages contenant 3 erreurs majeures (30%) enregistrées, NumaHop proposera le rejet du document.
+
+Voici les erreurs enregistrées :
+
+| Erreurs majeures          | Erreurs mineures                                |
+|---------------------------|-------------------------------------------------|
+|Corps étranger sur l'image| Cadrage inadapté      |
+| Fichier illisible        | Dérive de la chromie         |
+| Format de métadonnée non respecté | Distorsions géométriques          |
+| Format non respecté                     | Halo sur l'image |
+| Incohérence entre les métadonnées et les fichiers                    | Image floue |
+| Non-conformité de l'organisation            | Image inclinée          |
+| Non-conformité du nommage                     | Ombre portée          |
+| Non-respect de la résolution                     | Ordre des vues non respecté                   |
+| Non-respect du seuil | Autre erreur             |
+| Page manquante                   |   |
+| Troncature d'information            |                    |
 
