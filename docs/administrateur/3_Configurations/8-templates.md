@@ -53,5 +53,5 @@ NumaHOP, plateforme de gestion de contenus numérisés.
 Rejoignez sa communauté d'utilisateurs : https://www.numahop.fr/
 
 ### 
-![Gestion des langages OCR dans NumaHOP](/img/Templates_constat_etat.png)
+![Template de constat d'état (capture d'écran d'un fichier .odt)](/img/Templates_constat_etat.png)
 
