@@ -5,7 +5,6 @@ sidebar_position: 4
 description: Configuration des contrôles qualité
 ---
 
-import Icon from '@site/src/components/Icon.js';
 
 :::warning Page en cours de rédaction:::
 
