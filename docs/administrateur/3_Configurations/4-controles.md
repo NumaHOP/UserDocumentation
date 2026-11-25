@@ -76,4 +76,4 @@ Voici les erreurs enregistrées :
 | Non-respect du seuil | Autre erreur             |
 | Page manquante                   |   |
 | Troncature d'information            |                    |
-
+| Autre erreur             |                    |
