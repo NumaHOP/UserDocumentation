@@ -25,11 +25,10 @@ Le contrôle qualité dans NumaHop se fait grâce à la visionneuse embarquée. 
 flowchart TD
 
 A["Création du projet, du lot et import des unités documentaires<br>Démarrage du workflow"] --> B1["Création des constats d'état"]
-B1 --> C1["Création des constats d'état"]
-C1 --> D1["Validation des constats d'état"]
-D1 --> E1["Livraison des fichiers numérisés"]
-E1 --> F1["Contrôles automatiques"]
-F1 --> G1["Premier niveau de contrôle: pré-rejet et pré-validation"]
+B1 --> C1["Validation des constats d'état"]
+C1 --> D1["Livraison des fichiers numérisés"]
+D1 --> E1["Contrôles automatiques"]
+E1 --> F1["Premier niveau de contrôle: pré-rejet et pré-validation"]
 F1 --> G1["Validation des contrôles"]
 
 G1 --> H1["Rejet du document"]
@@ -38,7 +37,7 @@ H1 --> I1["Génération du rapport de contrôle"]
 G1 --> H2["Validation du document"]
 H2 --> I2["Validation de la notice"]
 
-I1 --> E1["Livraison des fichiers numérisés"]
+I1 --> D1["Livraison des fichiers numérisés"]
 ```
 
 # <Icon icon={["fa", "eye"]} /> Configuration des contrôles
