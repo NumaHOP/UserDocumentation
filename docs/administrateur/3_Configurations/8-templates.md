@@ -52,6 +52,6 @@ NumaHOP, plateforme de gestion de contenus numérisés.
 
 Rejoignez sa communauté d'utilisateurs : https://www.numahop.fr/
 
-### 
+### Template de constat d'état
 ![Template de constat d'état (capture d'écran d'un fichier .odt)](/img/Templates_constat_etat.png)
 
