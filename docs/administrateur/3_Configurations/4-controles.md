@@ -53,9 +53,9 @@ On va ensuite créer des configurations de contrôle types, par exemple selon le
 Par exemple, un lot de manuscrits pourrait être contrôlé en intégralité avec un taux d’erreur majeure limité, tandis qu’un contrôle par échantillonnage pourrait être appliqué pour un lot de monographies imprimées. Tout dépend des choix de l’établissement.
 
 
-##Les différents réglages possibles
+## Les différents réglages possibles
 
-###Les taux d’erreurs
+### Les taux d’erreurs
 
 C’est un pourcentage qu’il faut rentrer.
 
