@@ -17,4 +17,5 @@ Selon les langues des documents à numériser, il est possible d'activer un ou p
 
 ![Gestion des langages OCR dans NumaHOP](/img/Langages_OCR.png)
 
+
 La liste des modèles de langues disponibles est consultable sur https://github.com/tesseract-ocr/tessdata.
