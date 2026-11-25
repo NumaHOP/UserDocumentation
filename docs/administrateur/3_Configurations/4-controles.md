@@ -77,3 +77,14 @@ Voici les erreurs enregistrées :
 | Page manquante                   |   |
 | Troncature d'information            |                    |
 | Autre erreur             |                    |
+
+### La méthode et le taux d’échantillonnage
+Si le contrôle a pour but d’être exhaustif, choisir « pas d’échantillonnage ».
+
+Si le contrôle n’a pas pour but de s’appliquer à tous les documents mais seulement à un échantillon, il faut indiquer le taux d’échantillonnage. C’est un pourcentage.
+
+ existe 3 méthodes d’échantillonnage. Par exemple, pour un échantillonnage de 40% sur un lot de 100 documents :
+
+- **Documents dans la livraison** : Le contrôle sera obligatoire pour une sélection de 40 documents.
+- **Pages dans chaque document** : Tous les documents seront à contrôler, mais pas dans leur intégralité ; seules 40% des pages seront affichées dans la visionneuse pour chacun d’entre eux.
+- **Pages dans tous les documents** : NumaHop sélectionne 40% des pages tous documents confondus. Si le lot fait 1000 pages, il faudra contrôler 400 pages, qui seront affichées dans la visionneuse les unes à la suite des autres, quelle que soit l’appartenance des pages à un document. Le choix des pages est aléatoire.
